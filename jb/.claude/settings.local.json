@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "WebSearch",
+      "WebFetch(domain:bigideasdb.com)",
+      "WebFetch(domain:www.indiehackers.com)",
+      "WebFetch(domain:superframeworks.com)",
+      "WebFetch(domain:www.scmp.com)",
+      "WebFetch(domain:www.globalsources.com)",
+      "WebFetch(domain:www.bbc.co.uk)",
+      "WebFetch(domain:medialabs-co.com)",
+      "WebFetch(domain:eightx.co)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:chinesellers.substack.com)",
+      "WebFetch(domain:odi.org)",
+      "Bash(python init_crm.py)",
+      "Read(//c/Users/19061/.claude/**)",
+      "Read(//c/Users/19061/.claude/plugins/**)",
+      "Read(//e/memory/.claude/**)",
+      "Bash(start \"\" \"E:/memory/可视化/工作台.html\")",
+      "Bash(mkdir -p /d/Codex)",
+      "Read(//d/Codex/**)",
+      "Bash(curl -s \"https://api.github.com/search/repositories?q=codex%2B%2B&sort=stars&order=desc\")",
+      "Bash(bash install.sh)",
+      "Bash(bash install.sh --target claude --profile default)",
+      "Bash(bash install.sh --target claude --profile developer)",
+      "Bash(powershell.exe *)",
+      "Bash(python ecc_dashboard.py)"
+    ]
+  }
+}
