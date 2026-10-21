@@ -1,0 +1,100 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkqh5yjw1vwce"]
+
+[ext_resource type="Texture2D" uid="uid://cxxnvqgx0yfk6" path="res://assets/images/backgrounds/main_menu_bg.png" id="1_bg"]
+[ext_resource type="Script" path="res://scripts/ui/MainMenu.gd" id="2_script"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_script")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_bg")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -300.0
+offset_right = 300.0
+offset_bottom = -240.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 48
+text = "徒步亚马逊：赛博徒步"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -150.0
+offset_right = 150.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 15
+
+[node name="NewGameBtn" type="Button" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "🎮 新游戏"
+
+[node name="ContinueBtn" type="Button" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "📁 继续游戏"
+
+[node name="AchievementsBtn" type="Button" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "🏆 成就"
+
+[node name="SettingsBtn" type="Button" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "⚙️ 设置"
+
+[node name="HelpBtn" type="Button" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "❓ 帮助"
+
+[node name="QuitBtn" type="Button" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "🚪 退出游戏"
+
+[node name="LanguageBtn" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -120.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 60.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 20
+text = "🌐 EN"

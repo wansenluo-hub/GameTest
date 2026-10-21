@@ -1,0 +1,3214 @@
+{
+  "stations": [
+    {
+      "id": "andes_L01",
+      "km": 0.0,
+      "segment": "andes",
+      "name_zh": "米斯米雪山",
+      "name_en": "Nevado Mismi",
+      "type": "landmark",
+      "desc": "★大地标：亚马逊源头，旅程起点",
+      "event_id": "andes_004"
+    },
+    {
+      "id": "andes_w002",
+      "km": 35.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "寒风掠过裸露的岩脊，呼吸在稀薄空气里变得急促。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L02",
+      "km": 70.0,
+      "segment": "andes",
+      "name_zh": "源头冰湖",
+      "name_en": "Laguna McIntyre",
+      "type": "landmark",
+      "desc": "★大地标：第一滴亚马逊之水",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w004",
+      "km": 98.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一片高山苔原延伸到视野尽头，远处雪峰泛着冷光。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w005",
+      "km": 126.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "脚下的碎石坡很滑，每一步都要试探着落脚。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L03",
+      "km": 154.0,
+      "segment": "andes",
+      "name_zh": "拉里水源",
+      "name_en": "Lari spring",
+      "type": "landmark",
+      "desc": "★大地标：高原融雪汇流处",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w007",
+      "km": 186.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群羊驼警觉地抬头，又低下去继续啃食枯草。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w008",
+      "km": 219.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "云在山谷里翻涌，太阳时隐时现。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L04",
+      "km": 252.0,
+      "segment": "andes",
+      "name_zh": "科尔卡峡谷",
+      "name_en": "Colca Canyon",
+      "type": "landmark",
+      "desc": "★大地标：世界最深峡谷之一",
+      "event_id": "andes_colca"
+    },
+    {
+      "id": "andes_w010",
+      "km": 284.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你越过一道冰冷的溪流，水来自融化的雪。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w011",
+      "km": 317.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "高原的夜来得很快，气温骤降。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L05",
+      "km": 350.0,
+      "segment": "andes",
+      "name_zh": "卡瓦纳康德",
+      "name_en": "Cabanaconde",
+      "type": "landmark",
+      "desc": "★大地标：峡谷边的梯田村",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w013",
+      "km": 378.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座废弃的石屋立在垭口，不知是谁留下的。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w014",
+      "km": 406.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "寒风掠过裸露的岩脊，呼吸在稀薄空气里变得急促。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w015",
+      "km": 434.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一片高山苔原延伸到视野尽头，远处雪峰泛着冷光。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L06",
+      "km": 462.0,
+      "segment": "andes",
+      "name_zh": "阿普里马克河源",
+      "name_en": "Apurímac source",
+      "type": "landmark",
+      "desc": "★大地标：印加人称'会说话的神'",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w017",
+      "km": 493.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "脚下的碎石坡很滑，每一步都要试探着落脚。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w018",
+      "km": 525.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群羊驼警觉地抬头，又低下去继续啃食枯草。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w019",
+      "km": 556.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "云在山谷里翻涌，太阳时隐时现。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L07",
+      "km": 588.0,
+      "segment": "andes",
+      "name_zh": "查尔万卡",
+      "name_en": "Chalhuanca",
+      "type": "landmark",
+      "desc": "★大地标：高原小镇补给",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w021",
+      "km": 616.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你越过一道冰冷的溪流，水来自融化的雪。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w022",
+      "km": 644.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "高原的夜来得很快，气温骤降。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w023",
+      "km": 672.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座废弃的石屋立在垭口，不知是谁留下的。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w024",
+      "km": 700.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "寒风掠过裸露的岩脊，呼吸在稀薄空气里变得急促。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L08",
+      "km": 728.0,
+      "segment": "andes",
+      "name_zh": "阿班凯",
+      "name_en": "Abancay",
+      "type": "landmark",
+      "desc": "★大地标：安第斯东麓重镇",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w026",
+      "km": 759.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一片高山苔原延伸到视野尽头，远处雪峰泛着冷光。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w027",
+      "km": 791.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "脚下的碎石坡很滑，每一步都要试探着落脚。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w028",
+      "km": 822.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群羊驼警觉地抬头，又低下去继续啃食枯草。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L09",
+      "km": 854.0,
+      "segment": "andes",
+      "name_zh": "库斯科高地",
+      "name_en": "Cusco highlands",
+      "type": "landmark",
+      "desc": "★大地标：印加古都，重要补给",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w030",
+      "km": 881.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "云在山谷里翻涌，太阳时隐时现。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w031",
+      "km": 909.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你越过一道冰冷的溪流，水来自融化的雪。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w032",
+      "km": 937.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "高原的夜来得很快，气温骤降。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L10",
+      "km": 965.0,
+      "segment": "andes",
+      "name_zh": "圣安娜峡谷",
+      "name_en": "Santa Ana valley",
+      "type": "landmark",
+      "desc": "★大地标：下行进入云雾林",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w034",
+      "km": 993.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座废弃的石屋立在垭口，不知是谁留下的。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w035",
+      "km": 1021.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "寒风掠过裸露的岩脊，呼吸在稀薄空气里变得急促。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w036",
+      "km": 1049.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一片高山苔原延伸到视野尽头，远处雪峰泛着冷光。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L11",
+      "km": 1078.0,
+      "segment": "andes",
+      "name_zh": "基亚班巴",
+      "name_en": "Quillabamba",
+      "type": "landmark",
+      "desc": "★大地标：咖啡与古柯之乡",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w038",
+      "km": 1106.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "脚下的碎石坡很滑，每一步都要试探着落脚。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w039",
+      "km": 1134.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群羊驼警觉地抬头，又低下去继续啃食枯草。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w040",
+      "km": 1162.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "云在山谷里翻涌，太阳时隐时现。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L12",
+      "km": 1190.0,
+      "segment": "andes",
+      "name_zh": "乌鲁班巴河汇",
+      "name_en": "Urubamba confluence",
+      "type": "landmark",
+      "desc": "★大地标：支流汇入主干",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w042",
+      "km": 1222.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你越过一道冰冷的溪流，水来自融化的雪。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w043",
+      "km": 1255.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "高原的夜来得很快，气温骤降。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L13",
+      "km": 1288.0,
+      "segment": "andes",
+      "name_zh": "埃内河谷",
+      "name_en": "Ene River valley",
+      "type": "landmark",
+      "desc": "★大地标：危险区前夜",
+      "event_id": ""
+    },
+    {
+      "id": "andes_w045",
+      "km": 1323.0,
+      "segment": "andes",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座废弃的石屋立在垭口，不知是谁留下的。",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L14",
+      "km": 1358.0,
+      "segment": "andes",
+      "name_zh": "云雾林关口",
+      "name_en": "Cloud forest pass",
+      "type": "landmark",
+      "desc": "★大地标：安第斯东坡下降",
+      "event_id": ""
+    },
+    {
+      "id": "andes_L15",
+      "km": 1400.0,
+      "segment": "andes",
+      "name_zh": "红区门户",
+      "name_en": "Red Zone gateway",
+      "type": "landmark",
+      "desc": "★大地标：路段终点，进入红色区域",
+      "event_id": "andes_009"
+    },
+    {
+      "id": "red_L01",
+      "km": 1400.0,
+      "segment": "red_zone",
+      "name_zh": "萨蒂波",
+      "name_en": "Satipo",
+      "type": "landmark",
+      "desc": "★大地标：毒贩活动区VRAEM核心",
+      "event_id": "red_satipo"
+    },
+    {
+      "id": "red_w002",
+      "km": 1432.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "茂密的灌木挡住去路，你挥刀开路，汗水浸透衣背。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w003",
+      "km": 1464.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "远处传来引擎声，你警觉地伏低身子等它远去。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w004",
+      "km": 1497.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "湿热的空气里蚊虫成群，叮咬让人难以忍受。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w005",
+      "km": 1529.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河岸泥泞，每一步都陷进淤泥里。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L02",
+      "km": 1562.0,
+      "segment": "red_zone",
+      "name_zh": "埃内-坦博汇流",
+      "name_en": "Ene-Tambo confluence",
+      "type": "landmark",
+      "desc": "★大地标：两河交汇成坦博河",
+      "event_id": ""
+    },
+    {
+      "id": "red_w007",
+      "km": 1594.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一处被遗弃的营地，灰烬还没完全冷却。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w008",
+      "km": 1626.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "藤蔓缠绕的树冠遮天蔽日，正午也像黄昏。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w009",
+      "km": 1659.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你听到河对岸有人声，分不清是友是敌。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w010",
+      "km": 1691.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一条小船拴在岸边，主人却不见踪影。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L03",
+      "km": 1724.0,
+      "segment": "red_zone",
+      "name_zh": "普埃尔托奥科帕",
+      "name_en": "Puerto Ocopa",
+      "type": "landmark",
+      "desc": "★大地标：阿沙宁卡人聚居地",
+      "event_id": ""
+    },
+    {
+      "id": "red_w012",
+      "km": 1755.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "茂密的灌木挡住去路，你挥刀开路，汗水浸透衣背。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w013",
+      "km": 1787.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "远处传来引擎声，你警觉地伏低身子等它远去。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w014",
+      "km": 1818.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "湿热的空气里蚊虫成群，叮咬让人难以忍受。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w015",
+      "km": 1850.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河岸泥泞，每一步都陷进淤泥里。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w016",
+      "km": 1881.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一处被遗弃的营地，灰烬还没完全冷却。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L04",
+      "km": 1913.0,
+      "segment": "red_zone",
+      "name_zh": "阿塔拉亚",
+      "name_en": "Atalaya",
+      "type": "landmark",
+      "desc": "★大地标：乌卡亚利河起点重镇",
+      "event_id": "red_atalaya"
+    },
+    {
+      "id": "red_w018",
+      "km": 1943.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "藤蔓缠绕的树冠遮天蔽日，正午也像黄昏。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w019",
+      "km": 1974.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你听到河对岸有人声，分不清是友是敌。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w020",
+      "km": 2005.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一条小船拴在岸边，主人却不见踪影。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w021",
+      "km": 2036.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "茂密的灌木挡住去路，你挥刀开路，汗水浸透衣背。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w022",
+      "km": 2067.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "远处传来引擎声，你警觉地伏低身子等它远去。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w023",
+      "km": 2098.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "湿热的空气里蚊虫成群，叮咬让人难以忍受。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L05",
+      "km": 2129.0,
+      "segment": "red_zone",
+      "name_zh": "塞普阿",
+      "name_en": "Sepahua",
+      "type": "landmark",
+      "desc": "★大地标：河岸贸易站，古柯种植区",
+      "event_id": ""
+    },
+    {
+      "id": "red_w025",
+      "km": 2159.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河岸泥泞，每一步都陷进淤泥里。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w026",
+      "km": 2190.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一处被遗弃的营地，灰烬还没完全冷却。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w027",
+      "km": 2221.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "藤蔓缠绕的树冠遮天蔽日，正午也像黄昏。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w028",
+      "km": 2251.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你听到河对岸有人声，分不清是友是敌。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w029",
+      "km": 2282.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一条小船拴在岸边，主人却不见踪影。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w030",
+      "km": 2313.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "茂密的灌木挡住去路，你挥刀开路，汗水浸透衣背。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L06",
+      "km": 2344.0,
+      "segment": "red_zone",
+      "name_zh": "布尔加",
+      "name_en": "Bolognesi",
+      "type": "landmark",
+      "desc": "★大地标：丛林深处补给点",
+      "event_id": ""
+    },
+    {
+      "id": "red_w032",
+      "km": 2375.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "远处传来引擎声，你警觉地伏低身子等它远去。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w033",
+      "km": 2406.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "湿热的空气里蚊虫成群，叮咬让人难以忍受。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w034",
+      "km": 2437.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河岸泥泞，每一步都陷进淤泥里。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w035",
+      "km": 2468.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一处被遗弃的营地，灰烬还没完全冷却。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w036",
+      "km": 2499.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "藤蔓缠绕的树冠遮天蔽日，正午也像黄昏。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w037",
+      "km": 2530.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你听到河对岸有人声，分不清是友是敌。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L07",
+      "km": 2561.0,
+      "segment": "red_zone",
+      "name_zh": "乌卡亚利河湾",
+      "name_en": "Ucayali bend",
+      "type": "landmark",
+      "desc": "★大地标：大河蜿蜒",
+      "event_id": ""
+    },
+    {
+      "id": "red_w039",
+      "km": 2591.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一条小船拴在岸边，主人却不见踪影。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w040",
+      "km": 2621.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "茂密的灌木挡住去路，你挥刀开路，汗水浸透衣背。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w041",
+      "km": 2652.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "远处传来引擎声，你警觉地伏低身子等它远去。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w042",
+      "km": 2682.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "湿热的空气里蚊虫成群，叮咬让人难以忍受。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w043",
+      "km": 2712.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河岸泥泞，每一步都陷进淤泥里。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w044",
+      "km": 2743.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一处被遗弃的营地，灰烬还没完全冷却。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w045",
+      "km": 2773.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "藤蔓缠绕的树冠遮天蔽日，正午也像黄昏。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L08",
+      "km": 2804.0,
+      "segment": "red_zone",
+      "name_zh": "普卡尔帕",
+      "name_en": "Pucallpa",
+      "type": "landmark",
+      "desc": "★大地标：红区最大城市，重要补给",
+      "event_id": "red_pucallpa"
+    },
+    {
+      "id": "red_w047",
+      "km": 2834.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你听到河对岸有人声，分不清是友是敌。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w048",
+      "km": 2864.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一条小船拴在岸边，主人却不见踪影。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w049",
+      "km": 2895.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "茂密的灌木挡住去路，你挥刀开路，汗水浸透衣背。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w050",
+      "km": 2925.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "远处传来引擎声，你警觉地伏低身子等它远去。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w051",
+      "km": 2955.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "湿热的空气里蚊虫成群，叮咬让人难以忍受。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w052",
+      "km": 2986.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河岸泥泞，每一步都陷进淤泥里。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w053",
+      "km": 3016.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一处被遗弃的营地，灰烬还没完全冷却。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L09",
+      "km": 3047.0,
+      "segment": "red_zone",
+      "name_zh": "马斯萨亚",
+      "name_en": "Masisea",
+      "type": "landmark",
+      "desc": "★大地标：湖区渔村",
+      "event_id": ""
+    },
+    {
+      "id": "red_w055",
+      "km": 3077.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "藤蔓缠绕的树冠遮天蔽日，正午也像黄昏。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w056",
+      "km": 3107.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你听到河对岸有人声，分不清是友是敌。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w057",
+      "km": 3137.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一条小船拴在岸边，主人却不见踪影。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w058",
+      "km": 3168.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "茂密的灌木挡住去路，你挥刀开路，汗水浸透衣背。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w059",
+      "km": 3198.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "远处传来引擎声，你警觉地伏低身子等它远去。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w060",
+      "km": 3228.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "湿热的空气里蚊虫成群，叮咬让人难以忍受。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w061",
+      "km": 3258.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河岸泥泞，每一步都陷进淤泥里。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L10",
+      "km": 3289.0,
+      "segment": "red_zone",
+      "name_zh": "孔塔马纳",
+      "name_en": "Contamana",
+      "type": "landmark",
+      "desc": "★大地标：河港小镇",
+      "event_id": ""
+    },
+    {
+      "id": "red_w063",
+      "km": 3320.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一处被遗弃的营地，灰烬还没完全冷却。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w064",
+      "km": 3351.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "藤蔓缠绕的树冠遮天蔽日，正午也像黄昏。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w065",
+      "km": 3382.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你听到河对岸有人声，分不清是友是敌。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w066",
+      "km": 3413.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一条小船拴在岸边，主人却不见踪影。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w067",
+      "km": 3444.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "茂密的灌木挡住去路，你挥刀开路，汗水浸透衣背。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w068",
+      "km": 3475.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "远处传来引擎声，你警觉地伏低身子等它远去。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L11",
+      "km": 3506.0,
+      "segment": "red_zone",
+      "name_zh": "奥里略斯",
+      "name_en": "Orellana",
+      "type": "landmark",
+      "desc": "★大地标：以征服者命名",
+      "event_id": ""
+    },
+    {
+      "id": "red_w070",
+      "km": 3536.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "湿热的空气里蚊虫成群，叮咬让人难以忍受。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w071",
+      "km": 3567.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河岸泥泞，每一步都陷进淤泥里。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w072",
+      "km": 3598.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一处被遗弃的营地，灰烬还没完全冷却。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w073",
+      "km": 3629.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "藤蔓缠绕的树冠遮天蔽日，正午也像黄昏。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w074",
+      "km": 3660.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你听到河对岸有人声，分不清是友是敌。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w075",
+      "km": 3691.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一条小船拴在岸边，主人却不见踪影。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L12",
+      "km": 3722.0,
+      "segment": "red_zone",
+      "name_zh": "雷克纳",
+      "name_en": "Requena",
+      "type": "landmark",
+      "desc": "★大地标：塔皮切河口",
+      "event_id": ""
+    },
+    {
+      "id": "red_w077",
+      "km": 3752.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "茂密的灌木挡住去路，你挥刀开路，汗水浸透衣背。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w078",
+      "km": 3783.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "远处传来引擎声，你警觉地伏低身子等它远去。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w079",
+      "km": 3814.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "湿热的空气里蚊虫成群，叮咬让人难以忍受。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w080",
+      "km": 3845.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河岸泥泞，每一步都陷进淤泥里。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w081",
+      "km": 3876.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一处被遗弃的营地，灰烬还没完全冷却。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w082",
+      "km": 3907.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "藤蔓缠绕的树冠遮天蔽日，正午也像黄昏。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L13",
+      "km": 3938.0,
+      "segment": "red_zone",
+      "name_zh": "瑙塔",
+      "name_en": "Nauta",
+      "type": "landmark",
+      "desc": "★大地标：马拉尼翁与乌卡亚利汇成亚马逊河",
+      "event_id": ""
+    },
+    {
+      "id": "red_w084",
+      "km": 3970.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "你听到河对岸有人声，分不清是友是敌。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w085",
+      "km": 4002.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一条小船拴在岸边，主人却不见踪影。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w086",
+      "km": 4035.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "茂密的灌木挡住去路，你挥刀开路，汗水浸透衣背。",
+      "event_id": ""
+    },
+    {
+      "id": "red_w087",
+      "km": 4067.0,
+      "segment": "red_zone",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "远处传来引擎声，你警觉地伏低身子等它远去。",
+      "event_id": ""
+    },
+    {
+      "id": "red_L14",
+      "km": 4100.0,
+      "segment": "red_zone",
+      "name_zh": "过渡门户",
+      "name_en": "Transition gateway",
+      "type": "landmark",
+      "desc": "★大地标：路段终点，进入过渡地带",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L01",
+      "km": 4100.0,
+      "segment": "transition",
+      "name_zh": "伊基托斯",
+      "name_en": "Iquitos",
+      "type": "landmark",
+      "desc": "★大地标：世界最大无公路连接城市",
+      "event_id": "trans_iquitos"
+    },
+    {
+      "id": "trans_w002",
+      "km": 4130.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河面宽得望不到对岸，独木舟在浪里起伏。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w003",
+      "km": 4161.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨季的洪水淹没了岸边的小路，你只能涉水前行。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w004",
+      "km": 4192.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群粉红河豚跃出水面，转瞬又消失。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w005",
+      "km": 4223.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "沼泽散发着腐殖质的气味，落脚处越来越少。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w006",
+      "km": 4254.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "边境的哨所空无一人，铁皮屋顶在烈日下发烫。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w007",
+      "km": 4285.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "渔民晾晒的渔网挂满了岸边的木桩。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L02",
+      "km": 4316.0,
+      "segment": "transition",
+      "name_zh": "纳波河口",
+      "name_en": "Napo mouth",
+      "type": "landmark",
+      "desc": "★大地标：支流汇入",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w009",
+      "km": 4347.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "暴雨说来就来，瞬间打湿一切。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w010",
+      "km": 4379.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座浮在水上的村庄，房屋都架在木桩上。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w011",
+      "km": 4410.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河面宽得望不到对岸，独木舟在浪里起伏。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w012",
+      "km": 4442.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨季的洪水淹没了岸边的小路，你只能涉水前行。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w013",
+      "km": 4473.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群粉红河豚跃出水面，转瞬又消失。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L03",
+      "km": 4505.0,
+      "segment": "transition",
+      "name_zh": "印第安纳",
+      "name_en": "Indiana",
+      "type": "landmark",
+      "desc": "★大地标：河岸传教镇",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w015",
+      "km": 4535.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "沼泽散发着腐殖质的气味，落脚处越来越少。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w016",
+      "km": 4566.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "边境的哨所空无一人，铁皮屋顶在烈日下发烫。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w017",
+      "km": 4597.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "渔民晾晒的渔网挂满了岸边的木桩。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w018",
+      "km": 4628.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "暴雨说来就来，瞬间打湿一切。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w019",
+      "km": 4659.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座浮在水上的村庄，房屋都架在木桩上。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w020",
+      "km": 4690.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河面宽得望不到对岸，独木舟在浪里起伏。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L04",
+      "km": 4721.0,
+      "segment": "transition",
+      "name_zh": "佩巴斯",
+      "name_en": "Pebas",
+      "type": "landmark",
+      "desc": "★大地标：陶艺小镇",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w022",
+      "km": 4751.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨季的洪水淹没了岸边的小路，你只能涉水前行。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w023",
+      "km": 4782.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群粉红河豚跃出水面，转瞬又消失。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w024",
+      "km": 4813.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "沼泽散发着腐殖质的气味，落脚处越来越少。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w025",
+      "km": 4844.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "边境的哨所空无一人，铁皮屋顶在烈日下发烫。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w026",
+      "km": 4875.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "渔民晾晒的渔网挂满了岸边的木桩。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w027",
+      "km": 4906.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "暴雨说来就来，瞬间打湿一切。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L05",
+      "km": 4937.0,
+      "segment": "transition",
+      "name_zh": "圣罗莎",
+      "name_en": "Santa Rosa",
+      "type": "landmark",
+      "desc": "★大地标：秘鲁边境哨所",
+      "event_id": "trans_border"
+    },
+    {
+      "id": "trans_w029",
+      "km": 4968.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座浮在水上的村庄，房屋都架在木桩上。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w030",
+      "km": 5000.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河面宽得望不到对岸，独木舟在浪里起伏。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w031",
+      "km": 5031.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨季的洪水淹没了岸边的小路，你只能涉水前行。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w032",
+      "km": 5063.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群粉红河豚跃出水面，转瞬又消失。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w033",
+      "km": 5094.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "沼泽散发着腐殖质的气味，落脚处越来越少。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L06",
+      "km": 5126.0,
+      "segment": "transition",
+      "name_zh": "三国交界",
+      "name_en": "Tabatinga/Leticia",
+      "type": "landmark",
+      "desc": "★大地标：秘鲁-哥伦比亚-巴西三国点",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w035",
+      "km": 5157.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "边境的哨所空无一人，铁皮屋顶在烈日下发烫。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w036",
+      "km": 5189.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "渔民晾晒的渔网挂满了岸边的木桩。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w037",
+      "km": 5220.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "暴雨说来就来，瞬间打湿一切。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w038",
+      "km": 5252.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座浮在水上的村庄，房屋都架在木桩上。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w039",
+      "km": 5283.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河面宽得望不到对岸，独木舟在浪里起伏。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L07",
+      "km": 5315.0,
+      "segment": "transition",
+      "name_zh": "本杰明康斯坦特",
+      "name_en": "Benjamin Constant",
+      "type": "landmark",
+      "desc": "★大地标：进入巴西",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w041",
+      "km": 5345.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨季的洪水淹没了岸边的小路，你只能涉水前行。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w042",
+      "km": 5375.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群粉红河豚跃出水面，转瞬又消失。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w043",
+      "km": 5406.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "沼泽散发着腐殖质的气味，落脚处越来越少。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w044",
+      "km": 5436.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "边境的哨所空无一人，铁皮屋顶在烈日下发烫。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w045",
+      "km": 5466.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "渔民晾晒的渔网挂满了岸边的木桩。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w046",
+      "km": 5497.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "暴雨说来就来，瞬间打湿一切。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w047",
+      "km": 5527.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座浮在水上的村庄，房屋都架在木桩上。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L08",
+      "km": 5558.0,
+      "segment": "transition",
+      "name_zh": "圣安东尼奥",
+      "name_en": "Santo Antônio do Içá",
+      "type": "landmark",
+      "desc": "★大地标：伊萨河口",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w049",
+      "km": 5588.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河面宽得望不到对岸，独木舟在浪里起伏。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w050",
+      "km": 5619.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨季的洪水淹没了岸边的小路，你只能涉水前行。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w051",
+      "km": 5650.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群粉红河豚跃出水面，转瞬又消失。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w052",
+      "km": 5681.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "沼泽散发着腐殖质的气味，落脚处越来越少。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w053",
+      "km": 5712.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "边境的哨所空无一人，铁皮屋顶在烈日下发烫。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w054",
+      "km": 5743.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "渔民晾晒的渔网挂满了岸边的木桩。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L09",
+      "km": 5774.0,
+      "segment": "transition",
+      "name_zh": "托南廷斯",
+      "name_en": "Tonantins",
+      "type": "landmark",
+      "desc": "★大地标：河畔渔镇",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w056",
+      "km": 5804.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "暴雨说来就来，瞬间打湿一切。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w057",
+      "km": 5835.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座浮在水上的村庄，房屋都架在木桩上。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w058",
+      "km": 5866.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河面宽得望不到对岸，独木舟在浪里起伏。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w059",
+      "km": 5896.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨季的洪水淹没了岸边的小路，你只能涉水前行。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w060",
+      "km": 5927.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群粉红河豚跃出水面，转瞬又消失。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w061",
+      "km": 5958.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "沼泽散发着腐殖质的气味，落脚处越来越少。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L10",
+      "km": 5989.0,
+      "segment": "transition",
+      "name_zh": "圣保罗德奥利文萨",
+      "name_en": "São Paulo de Olivença",
+      "type": "landmark",
+      "desc": "★大地标：索利蒙伊斯河畔",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w063",
+      "km": 6019.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "边境的哨所空无一人，铁皮屋顶在烈日下发烫。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w064",
+      "km": 6050.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "渔民晾晒的渔网挂满了岸边的木桩。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w065",
+      "km": 6080.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "暴雨说来就来，瞬间打湿一切。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w066",
+      "km": 6111.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座浮在水上的村庄，房屋都架在木桩上。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w067",
+      "km": 6141.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河面宽得望不到对岸，独木舟在浪里起伏。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w068",
+      "km": 6172.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨季的洪水淹没了岸边的小路，你只能涉水前行。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w069",
+      "km": 6202.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群粉红河豚跃出水面，转瞬又消失。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L11",
+      "km": 6233.0,
+      "segment": "transition",
+      "name_zh": "茹塔伊河口",
+      "name_en": "Jutaí mouth",
+      "type": "landmark",
+      "desc": "★大地标：黑水支流",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w071",
+      "km": 6263.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "沼泽散发着腐殖质的气味，落脚处越来越少。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w072",
+      "km": 6293.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "边境的哨所空无一人，铁皮屋顶在烈日下发烫。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w073",
+      "km": 6324.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "渔民晾晒的渔网挂满了岸边的木桩。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w074",
+      "km": 6354.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "暴雨说来就来，瞬间打湿一切。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w075",
+      "km": 6384.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座浮在水上的村庄，房屋都架在木桩上。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w076",
+      "km": 6415.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河面宽得望不到对岸，独木舟在浪里起伏。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w077",
+      "km": 6445.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨季的洪水淹没了岸边的小路，你只能涉水前行。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L12",
+      "km": 6476.0,
+      "segment": "transition",
+      "name_zh": "丰特博阿",
+      "name_en": "Fonte Boa",
+      "type": "landmark",
+      "desc": "★大地标：渔业小镇",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w079",
+      "km": 6507.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一群粉红河豚跃出水面，转瞬又消失。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w080",
+      "km": 6539.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "沼泽散发着腐殖质的气味，落脚处越来越少。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w081",
+      "km": 6570.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "边境的哨所空无一人，铁皮屋顶在烈日下发烫。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w082",
+      "km": 6602.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "渔民晾晒的渔网挂满了岸边的木桩。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w083",
+      "km": 6633.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "暴雨说来就来，瞬间打湿一切。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L13",
+      "km": 6665.0,
+      "segment": "transition",
+      "name_zh": "特费",
+      "name_en": "Tefé",
+      "type": "landmark",
+      "desc": "★大地标：巴西冲刺前最后大补给",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w085",
+      "km": 6698.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "一座浮在水上的村庄，房屋都架在木桩上。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w086",
+      "km": 6732.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河面宽得望不到对岸，独木舟在浪里起伏。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_w087",
+      "km": 6766.0,
+      "segment": "transition",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨季的洪水淹没了岸边的小路，你只能涉水前行。",
+      "event_id": ""
+    },
+    {
+      "id": "trans_L14",
+      "km": 6800.0,
+      "segment": "transition",
+      "name_zh": "巴西冲刺门户",
+      "name_en": "Brazil sprint gateway",
+      "type": "landmark",
+      "desc": "★大地标：路段终点，进入巴西冲刺",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L01",
+      "km": 6800.0,
+      "segment": "brazil",
+      "name_zh": "科阿里",
+      "name_en": "Coari",
+      "type": "landmark",
+      "desc": "★大地标：石油重镇",
+      "event_id": "brazil_coari"
+    },
+    {
+      "id": "brazil_w002",
+      "km": 6831.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "大河如海，浑黄的水一直流向天际。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w003",
+      "km": 6862.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "巨大的货轮鸣笛驶过，掀起的浪差点打翻独木舟。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w004",
+      "km": 6893.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨林边缘的城镇灯火渐密，文明的气息越来越近。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w005",
+      "km": 6924.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "潮汐开始影响水位，你能闻到一丝海的咸味。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w006",
+      "km": 6955.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "成片的浮萍随波荡漾，白鹭立在其间。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w007",
+      "km": 6986.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河口的水道像迷宫，一不小心就会迷失方向。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w008",
+      "km": 7017.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "岸边孩子们朝你挥手，喊着听不懂的葡萄牙语。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w009",
+      "km": 7048.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "夕阳把整条大河染成金红色，终点不远了。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L02",
+      "km": 7080.0,
+      "segment": "brazil",
+      "name_zh": "科达雅斯",
+      "name_en": "Codajás",
+      "type": "landmark",
+      "desc": "★大地标：巴西坚果之乡",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w011",
+      "km": 7108.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "大河如海，浑黄的水一直流向天际。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w012",
+      "km": 7136.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "巨大的货轮鸣笛驶过，掀起的浪差点打翻独木舟。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w013",
+      "km": 7164.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨林边缘的城镇灯火渐密，文明的气息越来越近。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w014",
+      "km": 7192.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "潮汐开始影响水位，你能闻到一丝海的咸味。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w015",
+      "km": 7220.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "成片的浮萍随波荡漾，白鹭立在其间。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w016",
+      "km": 7248.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河口的水道像迷宫，一不小心就会迷失方向。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L03",
+      "km": 7276.0,
+      "segment": "brazil",
+      "name_zh": "阿纳马",
+      "name_en": "Anamã",
+      "type": "landmark",
+      "desc": "★大地标：低地泛滥区小镇",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w018",
+      "km": 7304.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "岸边孩子们朝你挥手，喊着听不懂的葡萄牙语。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w019",
+      "km": 7332.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "夕阳把整条大河染成金红色，终点不远了。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w020",
+      "km": 7360.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "大河如海，浑黄的水一直流向天际。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w021",
+      "km": 7388.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "巨大的货轮鸣笛驶过，掀起的浪差点打翻独木舟。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w022",
+      "km": 7416.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨林边缘的城镇灯火渐密，文明的气息越来越近。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w023",
+      "km": 7444.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "潮汐开始影响水位，你能闻到一丝海的咸味。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L04",
+      "km": 7472.0,
+      "segment": "brazil",
+      "name_zh": "曼纳卡普鲁",
+      "name_en": "Manacapuru",
+      "type": "landmark",
+      "desc": "★大地标：接近大都市",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w025",
+      "km": 7500.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "成片的浮萍随波荡漾，白鹭立在其间。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w026",
+      "km": 7528.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河口的水道像迷宫，一不小心就会迷失方向。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w027",
+      "km": 7556.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "岸边孩子们朝你挥手，喊着听不懂的葡萄牙语。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w028",
+      "km": 7584.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "夕阳把整条大河染成金红色，终点不远了。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w029",
+      "km": 7612.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "大河如海，浑黄的水一直流向天际。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w030",
+      "km": 7640.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "巨大的货轮鸣笛驶过，掀起的浪差点打翻独木舟。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L05",
+      "km": 7668.0,
+      "segment": "brazil",
+      "name_zh": "马瑙斯",
+      "name_en": "Manaus",
+      "type": "landmark",
+      "desc": "★大地标：黑白两河交汇，亚马逊心脏",
+      "event_id": "brazil_manaus"
+    },
+    {
+      "id": "brazil_w032",
+      "km": 7696.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨林边缘的城镇灯火渐密，文明的气息越来越近。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w033",
+      "km": 7724.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "潮汐开始影响水位，你能闻到一丝海的咸味。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L06",
+      "km": 7752.0,
+      "segment": "brazil",
+      "name_zh": "河水交汇奇观",
+      "name_en": "Meeting of Waters",
+      "type": "landmark",
+      "desc": "★大地标：黑水与黄水不混",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w035",
+      "km": 7783.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "成片的浮萍随波荡漾，白鹭立在其间。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w036",
+      "km": 7815.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河口的水道像迷宫，一不小心就会迷失方向。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w037",
+      "km": 7846.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "岸边孩子们朝你挥手，喊着听不懂的葡萄牙语。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w038",
+      "km": 7878.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "夕阳把整条大河染成金红色，终点不远了。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w039",
+      "km": 7909.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "大河如海，浑黄的水一直流向天际。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w040",
+      "km": 7941.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "巨大的货轮鸣笛驶过，掀起的浪差点打翻独木舟。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w041",
+      "km": 7972.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨林边缘的城镇灯火渐密，文明的气息越来越近。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L07",
+      "km": 8004.0,
+      "segment": "brazil",
+      "name_zh": "伊塔夸蒂亚拉",
+      "name_en": "Itacoatiara",
+      "type": "landmark",
+      "desc": "★大地标：港口城市",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w043",
+      "km": 8036.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "潮汐开始影响水位，你能闻到一丝海的咸味。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w044",
+      "km": 8068.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "成片的浮萍随波荡漾，白鹭立在其间。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w045",
+      "km": 8100.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河口的水道像迷宫，一不小心就会迷失方向。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w046",
+      "km": 8132.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "岸边孩子们朝你挥手，喊着听不懂的葡萄牙语。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w047",
+      "km": 8164.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "夕阳把整条大河染成金红色，终点不远了。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w048",
+      "km": 8196.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "大河如海，浑黄的水一直流向天际。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L08",
+      "km": 8228.0,
+      "segment": "brazil",
+      "name_zh": "乌鲁卡拉",
+      "name_en": "Urucará",
+      "type": "landmark",
+      "desc": "★大地标：河岸小镇",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w050",
+      "km": 8256.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "巨大的货轮鸣笛驶过，掀起的浪差点打翻独木舟。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w051",
+      "km": 8284.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨林边缘的城镇灯火渐密，文明的气息越来越近。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w052",
+      "km": 8312.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "潮汐开始影响水位，你能闻到一丝海的咸味。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w053",
+      "km": 8340.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "成片的浮萍随波荡漾，白鹭立在其间。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w054",
+      "km": 8368.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河口的水道像迷宫，一不小心就会迷失方向。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w055",
+      "km": 8396.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "岸边孩子们朝你挥手，喊着听不懂的葡萄牙语。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L09",
+      "km": 8424.0,
+      "segment": "brazil",
+      "name_zh": "帕林廷斯",
+      "name_en": "Parintins",
+      "type": "landmark",
+      "desc": "★大地标：牛节之城",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w057",
+      "km": 8452.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "夕阳把整条大河染成金红色，终点不远了。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w058",
+      "km": 8480.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "大河如海，浑黄的水一直流向天际。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w059",
+      "km": 8508.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "巨大的货轮鸣笛驶过，掀起的浪差点打翻独木舟。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w060",
+      "km": 8536.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨林边缘的城镇灯火渐密，文明的气息越来越近。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w061",
+      "km": 8564.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "潮汐开始影响水位，你能闻到一丝海的咸味。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w062",
+      "km": 8592.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "成片的浮萍随波荡漾，白鹭立在其间。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L10",
+      "km": 8620.0,
+      "segment": "brazil",
+      "name_zh": "茹鲁蒂",
+      "name_en": "Juruti",
+      "type": "landmark",
+      "desc": "★大地标：铝土矿区",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w064",
+      "km": 8648.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河口的水道像迷宫，一不小心就会迷失方向。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w065",
+      "km": 8676.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "岸边孩子们朝你挥手，喊着听不懂的葡萄牙语。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w066",
+      "km": 8704.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "夕阳把整条大河染成金红色，终点不远了。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w067",
+      "km": 8732.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "大河如海，浑黄的水一直流向天际。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w068",
+      "km": 8760.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "巨大的货轮鸣笛驶过，掀起的浪差点打翻独木舟。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w069",
+      "km": 8788.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨林边缘的城镇灯火渐密，文明的气息越来越近。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L11",
+      "km": 8816.0,
+      "segment": "brazil",
+      "name_zh": "奥比多斯",
+      "name_en": "Óbidos",
+      "type": "landmark",
+      "desc": "★大地标：亚马逊最窄最深处",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w071",
+      "km": 8844.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "潮汐开始影响水位，你能闻到一丝海的咸味。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w072",
+      "km": 8872.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "成片的浮萍随波荡漾，白鹭立在其间。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w073",
+      "km": 8900.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河口的水道像迷宫，一不小心就会迷失方向。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w074",
+      "km": 8928.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "岸边孩子们朝你挥手，喊着听不懂的葡萄牙语。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w075",
+      "km": 8956.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "夕阳把整条大河染成金红色，终点不远了。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w076",
+      "km": 8984.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "大河如海，浑黄的水一直流向天际。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L12",
+      "km": 9012.0,
+      "segment": "brazil",
+      "name_zh": "圣塔伦",
+      "name_en": "Santarém",
+      "type": "landmark",
+      "desc": "★大地标：塔帕若斯河汇流",
+      "event_id": "brazil_santarem"
+    },
+    {
+      "id": "brazil_w078",
+      "km": 9040.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "巨大的货轮鸣笛驶过，掀起的浪差点打翻独木舟。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w079",
+      "km": 9068.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨林边缘的城镇灯火渐密，文明的气息越来越近。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w080",
+      "km": 9096.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "潮汐开始影响水位，你能闻到一丝海的咸味。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w081",
+      "km": 9124.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "成片的浮萍随波荡漾，白鹭立在其间。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w082",
+      "km": 9152.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河口的水道像迷宫，一不小心就会迷失方向。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L13",
+      "km": 9180.0,
+      "segment": "brazil",
+      "name_zh": "蒙蒂阿莱格里",
+      "name_en": "Monte Alegre",
+      "type": "landmark",
+      "desc": "★大地标：史前岩画之地",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w084",
+      "km": 9208.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "岸边孩子们朝你挥手，喊着听不懂的葡萄牙语。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w085",
+      "km": 9236.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "夕阳把整条大河染成金红色，终点不远了。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w086",
+      "km": 9264.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "大河如海，浑黄的水一直流向天际。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w087",
+      "km": 9292.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "巨大的货轮鸣笛驶过，掀起的浪差点打翻独木舟。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L14",
+      "km": 9320.0,
+      "segment": "brazil",
+      "name_zh": "阿尔梅林",
+      "name_en": "Almeirim",
+      "type": "landmark",
+      "desc": "★大地标：高原台地",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w089",
+      "km": 9348.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "雨林边缘的城镇灯火渐密，文明的气息越来越近。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w090",
+      "km": 9376.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "潮汐开始影响水位，你能闻到一丝海的咸味。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w091",
+      "km": 9404.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "成片的浮萍随波荡漾，白鹭立在其间。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L15",
+      "km": 9432.0,
+      "segment": "brazil",
+      "name_zh": "古鲁帕",
+      "name_en": "Gurupá",
+      "type": "landmark",
+      "desc": "★大地标：进入河口三角洲",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w093",
+      "km": 9460.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "河口的水道像迷宫，一不小心就会迷失方向。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w094",
+      "km": 9488.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "岸边孩子们朝你挥手，喊着听不懂的葡萄牙语。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L16",
+      "km": 9516.0,
+      "segment": "brazil",
+      "name_zh": "布雷维斯",
+      "name_en": "Breves",
+      "type": "landmark",
+      "desc": "★大地标：马拉若岛迷宫水道",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_w096",
+      "km": 9544.0,
+      "segment": "brazil",
+      "name_zh": "",
+      "name_en": "",
+      "type": "waypoint",
+      "desc": "夕阳把整条大河染成金红色，终点不远了。",
+      "event_id": ""
+    },
+    {
+      "id": "brazil_L17",
+      "km": 9572.0,
+      "segment": "brazil",
+      "name_zh": "贝伦",
+      "name_en": "Belém",
+      "type": "landmark",
+      "desc": "★大地标：亚马逊门户大城",
+      "event_id": "brazil_belem"
+    },
+    {
+      "id": "brazil_L18",
+      "km": 9600.0,
+      "segment": "brazil",
+      "name_zh": "马鲁达海滩",
+      "name_en": "Marudá beach",
+      "type": "landmark",
+      "desc": "★大地标：大西洋！旅程终点",
+      "event_id": "brazil_maruda"
+    }
+  ]
+}

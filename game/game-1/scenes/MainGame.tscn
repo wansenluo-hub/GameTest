@@ -1,0 +1,106 @@
+[gd_scene format=3 uid="uid://dh3k5m8j0m7qp"]
+
+[ext_resource type="Script" path="res://scripts/MainGame.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://c3vl5m8j0m7qp" path="res://scenes/ui/StatusPanel.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://bqj8x7k3m5yfn" path="res://scenes/ui/ActionMenu.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://c8k2p9m3n7qrw" path="res://scenes/ui/InventoryPanel.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://e7m4k9p2n8xrt" path="res://scenes/ui/EventDialog.tscn" id="5"]
+
+[node name="MainGame" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 0
+
+[node name="DayNightOverlay" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(1, 1, 1, 0)
+
+[node name="RainParticles" type="CPUParticles2D" parent="."]
+position = Vector2(960, -50)
+amount = 200
+lifetime = 2.0
+preprocess = 0.5
+local_coords = false
+emission_shape = 3
+emission_rect_extents = Vector2(1000, 10)
+direction = Vector2(0, 1)
+gravity = Vector2(0, 500)
+initial_velocity_min = 300.0
+initial_velocity_max = 400.0
+scale_amount_min = 2.0
+scale_amount_max = 4.0
+color = Color(0.7, 0.8, 1, 0.5)
+
+[node name="StatusPanel" parent="." instance=ExtResource("2")]
+
+[node name="ActionMenu" parent="." instance=ExtResource("3")]
+visible = false
+
+[node name="InventoryPanel" parent="." instance=ExtResource("4")]
+visible = false
+
+[node name="InventoryBtn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 200.0
+offset_right = 120.0
+offset_bottom = 250.0
+text = "背包 [I]"
+
+[node name="ActionBtn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 260.0
+offset_right = 120.0
+offset_bottom = 310.0
+text = "行动 [空格]"
+
+[node name="EventTestBtn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 320.0
+offset_right = 120.0
+offset_bottom = 370.0
+text = "随机事件 [E]"
+
+[node name="CenterMessage" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -50.0
+offset_right = 400.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0.898039, 0.752941, 1)
+theme_override_font_sizes/font_size = 24
+text = "时间在流逝… 按[空格]行动，按[I]开背包，按[E]随机事件"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="EventDialog" parent="." instance=ExtResource("5")]
+visible = false

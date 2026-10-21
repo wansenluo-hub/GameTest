@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import docx, openpyxl; print\\('libs ok'\\)\")",
+      "Bash(python -m pip install python-docx openpyxl --quiet)",
+      "Bash(python -c \"import docx, openpyxl; print\\('libs ok now'\\)\")",
+      "Bash(python)",
+      "Bash(python _fill.py)",
+      "Bash(2>&1)",
+      "Bash(find assets *)",
+      "Bash(find scripts *)",
+      "Bash(python -c \"from PIL import Image; print\\('PIL ok'\\)\")",
+      "Bash(ls tools *)",
+      "Bash(ls data *)",
+      "Bash(python build_items.py)",
+      "Bash(python -c \"import json,io; d=json.load\\(io.open\\('data/items.json',encoding='utf-8'\\)\\); print\\('count:',len\\(d['items']\\)\\); print\\(json.dumps\\(d['items'][:2],ensure_ascii=False,indent=2\\)\\)\")",
+      "Bash(python -c \"from PIL import Image; im=Image.open\\('assets/images/icons/items/F1.png'\\); print\\('F1:',im.size,im.mode\\)\")",
+      "Bash(python -c \"import json,io; d=json.load\\(io.open\\('localization/zh.json',encoding='utf-8'\\)\\); print\\(d.get\\('item.jerky.name'\\), '|', d.get\\('ui.shop.title'\\), '|', d.get\\('ui.shop.cat.food'\\)\\)\")",
+      "WebFetch(domain:cyberhiking.com)",
+      "WebSearch",
+      "Bash(awk '{print $2}')",
+      "Bash(python build_event_template.py)",
+      "Bash(rm -f ../_items_ref.txt)",
+      "Read(//e/memory/jilu/**)"
+    ]
+  }
+}

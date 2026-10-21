@@ -1,0 +1,4282 @@
+{
+  "events": [
+    {
+      "id": "andes_001",
+      "type": "major",
+      "name": "高原反应",
+      "segments": "andes",
+      "day_range": "1-120",
+      "probability": "30",
+      "condition": "",
+      "trigger_type": "时段roll | 随机遭遇",
+      "desc": "你感到头痛欲裂，呼吸急促。Cho脸色苍白，提醒你这是高原反应。",
+      "options": [
+        {
+          "text": "服用抗高反药",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "药效缓解了头痛，Cho也松了口气。你感觉好多了。"
+        },
+        {
+          "text": "原地休息2小时",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你和Cho靠在岩石上闭眼休息，症状慢慢减轻。"
+        },
+        {
+          "text": "强行下山",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你咬牙下撤，但身体付出了代价。Cho扶着你走。"
+        }
+      ]
+    },
+    {
+      "id": "andes_002",
+      "type": "major",
+      "name": "源头冰川裂缝",
+      "segments": "andes",
+      "day_range": "1-20",
+      "probability": "25",
+      "condition": "",
+      "trigger_type": "时段roll | 随机遭遇",
+      "desc": "你从冰川源头出发不久，前方出现一道深不见底的裂缝，冰雪覆盖下难以看清边缘。Cho扔了块石头下去，半天没听到回声。",
+      "options": [
+        {
+          "text": "用绳索辅助跨越",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抛出绳索固定在对岸，Cho先过去，你跟在他后面。安全通过。"
+        },
+        {
+          "text": "从北侧绕行",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们绕了一大圈，意外发现一处冒着热气的温泉。Cho二话不说脱了鞋。"
+        },
+        {
+          "text": "冒险跳过去",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你后退几步助跑，Cho来不及拉住你。你掉进裂缝，背包挂在了冰壁上。Cho用绳子把你拉上来。"
+        }
+      ]
+    },
+    {
+      "id": "andes_003",
+      "type": "major",
+      "name": "雪盲前兆",
+      "segments": "andes",
+      "day_range": "1-20",
+      "probability": "20",
+      "condition": "",
+      "trigger_type": "时段roll | 随机遭遇",
+      "desc": "阳光在雪地上反射刺眼，你开始流泪、视力模糊。Cho眯着眼睛说：“快处理，不然眼睛要废了。”",
+      "options": [
+        {
+          "text": "用炭灰涂抹眼下",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你从锅底刮了些炭灰抹在下眼睑。Cho看着你笑了：“像个鬼。”但眼睛不疼了。"
+        },
+        {
+          "text": "用衣物遮眼休息",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们找了块背阴的岩石，用衣服蒙住头休息了两小时。Cho醒来时差点踩空。"
+        },
+        {
+          "text": "摘下墨镜硬撑",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你摘下墨镜想看得更清楚，强光瞬间灼伤了眼睛。Cho赶紧帮你戴回去，但已经晚了。"
+        }
+      ]
+    },
+    {
+      "id": "andes_004",
+      "type": "major",
+      "name": "源头瀑布",
+      "segments": "andes",
+      "day_range": "10-30",
+      "probability": "100",
+      "condition": "",
+      "trigger_type": "地标 | landmark_andes_01 (源头瀑布)",
+      "desc": "你听到轰鸣声，眼前出现一条巨大瀑布，水流湍急，旁边只有一条湿滑的小径。Cho喊：“水太大，走旁边绕！”",
+      "options": [
+        {
+          "text": "从瀑布后方攀岩绕行",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抓着湿滑的岩壁，Cho在后面托着你。水雾打湿了全身，但总算过去了。"
+        },
+        {
+          "text": "沿河岸寻找浅滩",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们沿着河岸走了半天，找到一处浅滩。Cho蹲下来喝了一口：“甜的！”"
+        },
+        {
+          "text": "尝试木筏下瀑布",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们绑了个木筏冲下去，直接被瀑布拍散了。Cho抱着根木头漂到下游，你们的装备损失了大半。"
+        }
+      ]
+    },
+    {
+      "id": "andes_005",
+      "type": "major",
+      "name": "科尔卡陡坡滑落",
+      "segments": "andes",
+      "day_range": "21-80",
+      "probability": "20",
+      "condition": "",
+      "trigger_type": "时段roll | 随机遭遇",
+      "desc": "碎石坡突然滑动，你失去平衡，背包的重量把你向下拖拽。Cho大喊：“抓住东西！”",
+      "options": [
+        {
+          "text": "抓住灌木",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你伸手抓住一簇灌木，手掌被割破，但稳住了。Cho滑下来把你拉上去。"
+        },
+        {
+          "text": "丢下背包自保",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你果断松开背包扣，Cho接住了它。背包保住了，你人也稳了。"
+        },
+        {
+          "text": "叫Cho拉住你",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho伸手拉住你，两人一起滑了几米，最后撞在一块岩石上停下来。Cho的胳膊擦破了皮。"
+        }
+      ]
+    },
+    {
+      "id": "andes_006",
+      "type": "major",
+      "name": "峡谷秃鹫围食",
+      "segments": "andes",
+      "day_range": "21-80",
+      "probability": "10",
+      "condition": "",
+      "trigger_type": "时段roll | 随机遭遇",
+      "desc": "几只秃鹫在上空盘旋，你发现不远处有一头死亡的羊驼。Cho说：“肉还能吃，但得快点。”",
+      "options": [
+        {
+          "text": "驱赶秃鹫取肉",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你举着砍刀冲过去，秃鹫飞走了。Cho帮你割肉，说够吃好几天了。"
+        },
+        {
+          "text": "绕开继续行军",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho拉着你走了：“不值得冒险。”秃鹫在你们身后落下来。"
+        },
+        {
+          "text": "设置陷阱等待其他食腐动物",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们在尸体旁设了陷阱，第二天发现一只被夹住的美洲狮。Cho说：“值了。”"
+        }
+      ]
+    },
+    {
+      "id": "andes_007",
+      "type": "major",
+      "name": "阿普利河谷桥毁",
+      "segments": "andes",
+      "day_range": "41-80",
+      "probability": "15",
+      "condition": "",
+      "trigger_type": "时段roll | 随机遭遇",
+      "desc": "雨季山洪冲毁了原本的木板桥，河面宽约20米，水流湍急。Cho摇头：“过不去了。”",
+      "options": [
+        {
+          "text": "砍树造简易桥",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你砍倒一棵树架在河上。Cho先走过去，桥晃了晃，但没断。"
+        },
+        {
+          "text": "涉水过河",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拉着Cho的手一步一步趟过去，水没过大腿。上岸时两人都在发抖。"
+        },
+        {
+          "text": "沿河寻找浅滩",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们沿着河走了半天，Cho发现一处浅滩。对岸有个小村落，可以补给。"
+        }
+      ]
+    },
+    {
+      "id": "andes_008",
+      "type": "major",
+      "name": "普洛玛夜间泥石流",
+      "segments": "andes",
+      "day_range": "81-120",
+      "probability": "20",
+      "condition": "",
+      "trigger_type": "时段roll | 随机遭遇",
+      "desc": "夜间大雨，你听到山体传来闷响。Cho大喊：“泥石流来了，快跑！”",
+      "options": [
+        {
+          "text": "向高地冲刺",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你和Cho拼了命往高处跑，身后泥土裹着石头冲下来。Cho摔了一跤，你回头拉他。"
+        },
+        {
+          "text": "躲入岩缝",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们挤进一条岩缝，泥石流从外面轰隆隆过去。Cho说：“今晚就在这过夜了。”"
+        },
+        {
+          "text": "用背包垫高睡处",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你把防水布和背包垫在身下，Cho靠在旁边。泥水从身边流过，但没淹到你们。"
+        }
+      ]
+    },
+    {
+      "id": "andes_009",
+      "type": "auto",
+      "name": "告别安第斯",
+      "segments": "andes",
+      "day_range": "141-150",
+      "probability": "100",
+      "condition": "",
+      "trigger_type": "地标 | landmark_andes_15 (告别安第斯)",
+      "desc": "红区门户前，Cho回头看了一眼安第斯山脉。“再见，雪山。”他转过身，“接下来是绿的地狱了。”",
+      "options": [
+        {
+          "text": "和Cho碰拳",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你伸出手，Cho和你碰了碰拳。“走吧。”"
+        }
+      ]
+    },
+    {
+      "id": "animal_001",
+      "type": "major",
+      "name": "美洲豹拦路",
+      "segments": "red_zone,brazil",
+      "day_range": "121-860",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll | animal类随机遭遇",
+      "desc": "一只美洲豹蹲在树干上，黄色的眼睛紧盯着你，尾巴轻轻摆动。Cho低声说：“别跑，别回头。”",
+      "options": [
+        {
+          "text": "点燃火把挥舞",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你点燃火把举过头顶大声吼叫。美洲豹犹豫了一下，转身跳进丛林。Cho松了口气。"
+        },
+        {
+          "text": "缓慢后退，保持眼神接触",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你和Cho慢慢后退，全程盯着它的眼睛。直到退出几十米，它才从树上下来走开。"
+        },
+        {
+          "text": "用砍刀对峙",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抽出砍刀，Cho来不及拦你。美洲豹扑过来，在你手臂上撕了一道口子。Cho冲上来把它赶跑了。"
+        }
+      ]
+    },
+    {
+      "id": "animal_002",
+      "type": "major",
+      "name": "森蚺缠绕",
+      "segments": "transition,brazil",
+      "day_range": "241-860",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll | animal类随机遭遇",
+      "desc": "你踩到一条森蚺的尾巴，它瞬间缠绕住你的小腿，越收越紧。Cho喊：“别动，拿刀！”",
+      "options": [
+        {
+          "text": "用砍刀猛砍蛇身",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抽出砍刀狠砍蛇身，血溅了一身。森蚺松开你滑进水里。Cho扯下布条帮你包扎。"
+        },
+        {
+          "text": "让Cho救援",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho用砍刀精准地斩断蛇头，蛇身还在抽搐。他把你拉起来：“没事了。”"
+        },
+        {
+          "text": "装死等待松开",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你屏住呼吸装死，森蚺缠了几分钟才松开。Cho不敢出声，等你脱身才冲过来。"
+        }
+      ]
+    },
+    {
+      "id": "animal_003",
+      "type": "major",
+      "name": "鳄鱼伏击",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "121-860",
+      "probability": "7",
+      "condition": "",
+      "trigger_type": "时段roll | animal类随机遭遇",
+      "desc": "一只黑凯门鳄从水中窜出，咬住了你背包的底部。Cho大叫：“脱包！”",
+      "options": [
+        {
+          "text": "弃包逃跑",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你果断松开背包扣，鳄鱼叼着包沉入水中。Cho拍着胸口：“命比包重要。”"
+        },
+        {
+          "text": "用砍刀捅鳄鱼眼睛",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你转身一刀捅向鳄鱼眼睛，它疼得松开口。Cho拖着你往岸上跑。背包被咬烂了，但东西还在。"
+        },
+        {
+          "text": "叫Cho帮忙",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho用长矛刺中鳄鱼的后背，它松开你转向Cho。你趁机拉着他跑上岸。"
+        }
+      ]
+    },
+    {
+      "id": "animal_004",
+      "type": "major",
+      "name": "食人鱼群",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "121-860",
+      "probability": "12",
+      "condition": "",
+      "trigger_type": "时段roll | animal类随机遭遇",
+      "desc": "你涉水过河时，大腿突然剧痛，几条食人鱼正在撕咬。Cho喊：“快跑！”",
+      "options": [
+        {
+          "text": "快速冲向对岸",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拼命往对岸冲，食人鱼咬着你的肉不放。Cho在岸上伸手拉你。腿上全是血。"
+        },
+        {
+          "text": "用砍刀拍打水面驱赶",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用砍刀猛拍水面，食人鱼被吓散了。Cho帮你包扎伤口。"
+        },
+        {
+          "text": "继续慢慢走",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你不敢跑，慢慢往前走。食人鱼越聚越多，Cho冲过来把你拖上岸。"
+        }
+      ]
+    },
+    {
+      "id": "animal_005",
+      "type": "major",
+      "name": "电鳗电击",
+      "segments": "transition,brazil",
+      "day_range": "121-860",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll | animal类随机遭遇",
+      "desc": "你踩到一条电鳗，一阵剧痛从脚底传遍全身。Cho喊：“别动！”",
+      "options": [
+        {
+          "text": "原地不动",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你僵在原地，电流穿过身体。Cho用木棍把电鳗拨开。你瘫倒在岸边。"
+        },
+        {
+          "text": "快速跳开",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你本能地跳开，电击反而加重了。Cho扶着你，说差点被你害死。"
+        },
+        {
+          "text": "用木棍拨开",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你早有准备，从包里抽出木棍把电鳗拨走。Cho竖起大拇指。"
+        }
+      ]
+    },
+    {
+      "id": "animal_006",
+      "type": "major",
+      "name": "毒蛇咬伤",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "10",
+      "condition": "",
+      "trigger_type": "时段roll | animal类随机遭遇",
+      "desc": "你翻过一根倒木时，一条矛头蝮蛇咬住了你的小腿。Cho蹲下来：“别动，让我看看。”",
+      "options": [
+        {
+          "text": "吸出毒液+止血带",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho用嘴帮你吸出毒液，边吸边吐。然后用布条扎紧你的大腿。“还得找血清。”"
+        },
+        {
+          "text": "注射抗蛇毒血清",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你从急救包里翻出抗蛇毒血清，Cho帮你注射。药效很快，肿消了些。"
+        },
+        {
+          "text": "砍伤口放血",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho用小刀在伤口划了个十字，黑色的血涌出来。你说疼，Cho说你命都快没了还怕疼。"
+        }
+      ]
+    },
+    {
+      "id": "animal_007",
+      "type": "minor",
+      "name": "树懒坠落",
+      "segments": "transition,brazil",
+      "day_range": "241-860",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll | animal类随机遭遇",
+      "desc": "一只树懒没抓稳树枝，从树上掉下来，落在你面前。Cho和它大眼瞪小眼。",
+      "options": [
+        {
+          "text": "查看是否受伤",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你蹲下来检查，树懒慢悠悠地眨眼睛。Cho说：“它没事，就是蠢。”"
+        },
+        {
+          "text": "忽略继续行军",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho绕过树懒，回头看你：“不走？”你还在笑。"
+        },
+        {
+          "text": "抓住树懒当宠物",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抱起树懒，它挂在你身上。Cho说它会拖慢速度。你跟了两天，最后还是放生了。"
+        }
+      ]
+    },
+    {
+      "id": "animal_008",
+      "type": "major",
+      "name": "黄蜂暴怒",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll | animal类随机遭遇",
+      "desc": "你无意中碰到了树上的蜂巢，黄蜂群嗡地炸开了锅。Cho喊：“跳河！”",
+      "options": [
+        {
+          "text": "跳入水中",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拉着Cho跳进河里，把头埋在水里。黄蜂在水面上盘旋了几分钟才散去。"
+        },
+        {
+          "text": "用衣物包住头奔跑",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用衣服包住头拼命跑，Cho在后面。被蛰了一身包，Cho说你是笨蛋。"
+        },
+        {
+          "text": "用烟熏",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你点燃湿柴，浓烟滚滚。黄蜂被熏跑了，Cho也被呛得眼泪直流。"
+        }
+      ]
+    },
+    {
+      "id": "plant_001",
+      "type": "major",
+      "name": "箭毒蛙触碰",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "121-860",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll | plant类随机遭遇",
+      "desc": "你伸手抓树枝时，一只指甲盖大小、色彩艳丽的青蛙蹲在叶片上。Cho喊：“别碰！”",
+      "options": [
+        {
+          "text": "立即用河水冲洗",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你赶紧冲到河边冲洗手指。Cho说箭毒蛙的毒素能杀死十个人。"
+        },
+        {
+          "text": "用解毒草药涂抹",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho从包里翻出几片叶子让你嚼碎敷上。苦得你直皱眉，但手不麻了。"
+        },
+        {
+          "text": "不处理",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你觉得小题大做，继续赶路。几个小时后手指开始发黑，Cho气得骂你。"
+        }
+      ]
+    },
+    {
+      "id": "plant_002",
+      "type": "minor",
+      "name": "野生可可果",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "121-860",
+      "probability": "12",
+      "condition": "",
+      "trigger_type": "时段roll | plant类随机遭遇",
+      "desc": "你发现一丛可可树，果实已经成熟。Cho说：“好东西，提神。”",
+      "options": [
+        {
+          "text": "采集并食用",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你咬开可可果，白色的果肉酸酸甜甜。Cho说印第安人拿它当零食。"
+        },
+        {
+          "text": "采集并保存",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你摘了几个塞进包里。Cho说放太久会坏，要快点吃。"
+        },
+        {
+          "text": "标记位置下次来",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你在地图上做了标记。Cho说等我们回来，早被人摘光了。"
+        }
+      ]
+    },
+    {
+      "id": "plant_003",
+      "type": "major",
+      "name": "毒蘑菇误食",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll | plant类随机遭遇",
+      "desc": "你太饿了，摘了一把蘑菇煮汤。Cho凑过来闻了闻：“颜色不对。”",
+      "options": [
+        {
+          "text": "全部扔掉",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho一把打翻你的锅：“不要命了？”你看着汤洒在地上，有点心疼。"
+        },
+        {
+          "text": "只吃一小口试试",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你趁Cho不注意吃了一小口。几个小时后开始头晕，Cho气得不想理你。"
+        },
+        {
+          "text": "让Cho先尝",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说让Cho先尝，他瞪了你一眼：“信任你就这么用的？”气氛有点僵。"
+        }
+      ]
+    },
+    {
+      "id": "plant_004",
+      "type": "major",
+      "name": "大树倒塌",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll | plant类随机遭遇",
+      "desc": "暴雨后，一棵30米高的大树轰然倒下，砸在你前方5米处。Cho捂着耳朵。",
+      "options": [
+        {
+          "text": "快速后退",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拉着Cho往后跳，树枝扫过你的脸。Cho说就差一点点。"
+        },
+        {
+          "text": "查看树冠是否有食物",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你爬上倒下的树干，在树冠里发现一个鸟窝，里面有鸟蛋。Cho说你是捡漏王。"
+        },
+        {
+          "text": "用倒木当桥过河",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "树干正好横在河上，Cho先走过去，桥没断。你们省了半天时间。"
+        }
+      ]
+    },
+    {
+      "id": "plant_005",
+      "type": "minor",
+      "name": "沼泽食虫草",
+      "segments": "transition,brazil",
+      "day_range": "241-860",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll | plant类随机遭遇",
+      "desc": "你发现一片巨大的猪笼草，里面盛满了雨水。Cho说：“里面的水可以喝。”",
+      "options": [
+        {
+          "text": "喝猪笼草里的水",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你捧起水喝了一口，有点酸。Cho说没事，就是消化液。你后悔听了他的话。"
+        },
+        {
+          "text": "采集猪笼草当水壶",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你摘了一个当水壶，Cho说用几次就烂了。果然。"
+        },
+        {
+          "text": "忽略",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho拉着你走：“别看了，还有路要赶。”"
+        }
+      ]
+    },
+    {
+      "id": "plant_006",
+      "type": "minor",
+      "name": "藤蔓绊倒",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "2",
+      "condition": "",
+      "trigger_type": "时段roll | plant类随机遭遇",
+      "desc": "一根粗藤蔓藏在落叶下，你一脚踩空，整个人向前扑倒。Cho伸手没拉住。",
+      "options": [
+        {
+          "text": "用手撑地",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你本能地用手撑地，手掌擦破了皮。Cho递过来绷带。"
+        },
+        {
+          "text": "翻滚卸力",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你顺势翻滚，Cho说你反应还挺快。站起来拍拍土，继续走。"
+        },
+        {
+          "text": "抓住旁边的树干",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你一把抓住树干，Cho吓出一身汗。树干很稳，你没受伤。"
+        }
+      ]
+    },
+    {
+      "id": "plant_007",
+      "type": "minor",
+      "name": "巨型睡莲",
+      "segments": "transition,brazil",
+      "day_range": "241-860",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll | plant类随机遭遇",
+      "desc": "你看到一片叶片直径超过1.5米的亚马逊王莲。Cho说：“可以站人。”",
+      "options": [
+        {
+          "text": "踩上去试试",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你小心翼翼地踩上去，莲叶纹丝不动。Cho说你也太轻了。"
+        },
+        {
+          "text": "采集莲叶当雨棚",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你割下一片莲叶当临时雨棚。Cho说能撑几天。"
+        },
+        {
+          "text": "拍照记录",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拍了几张照片。Cho说回去可以给儿子看。"
+        }
+      ]
+    },
+    {
+      "id": "weather_001",
+      "type": "major",
+      "name": "旱季水源枯竭",
+      "segments": "transition,brazil",
+      "day_range": "361-480",
+      "probability": "15",
+      "condition": "water<30",
+      "trigger_type": "时段roll | weather类随机遭遇",
+      "desc": "平时取水的溪流已经干涸，只剩下发臭的泥坑。Cho舔了舔干裂的嘴唇。",
+      "options": [
+        {
+          "text": "挖坑找地下水",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你和Cho轮流挖坑，挖了半米深终于渗出水来。Cho说等它沉淀一下再喝。"
+        },
+        {
+          "text": "绕路寻找其他水源",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们走了半天，Cho听到水声。终于找到一条小溪，两人趴下去喝了个饱。"
+        },
+        {
+          "text": "用净水药片过滤泥水",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你往泥坑里扔了片净水药片，水变清了。Cho捏着鼻子灌了一口：“还行。”"
+        }
+      ]
+    },
+    {
+      "id": "weather_002",
+      "type": "major",
+      "name": "暴雨冲毁营地",
+      "segments": "red_zone,transition",
+      "day_range": "121-360",
+      "probability": "10",
+      "condition": "",
+      "trigger_type": "时段roll | weather类随机遭遇",
+      "desc": "夜间暴雨，水位暴涨，你的营地开始进水。Cho从睡袋里跳起来：“水进来了！”",
+      "options": [
+        {
+          "text": "快速向高地转移",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你和Cho抓起背包就往高处跑，水在后面追。回头一看，帐篷已经漂走了。"
+        },
+        {
+          "text": "用木桩加固营地",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们冒雨打桩加固，Cho的手磨出了血泡。天亮时雨停了，营地保住了。"
+        },
+        {
+          "text": "爬上大树过夜",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抱着树干，Cho坐在对面的树枝上。雨淋了一夜，谁都没睡着。"
+        }
+      ]
+    },
+    {
+      "id": "weather_003",
+      "type": "major",
+      "name": "雷电风暴",
+      "segments": "andes,transition",
+      "day_range": "121-480",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll | weather类随机遭遇",
+      "desc": "天空乌云密布，雷声越来越近，闪电在远处劈中一棵大树。Cho脸色发白。",
+      "options": [
+        {
+          "text": "找低洼地趴下",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你和Cho趴在泥地里，雷声就在头顶炸开。Cho的手在发抖。"
+        },
+        {
+          "text": "继续行军",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说走快一点，话音未落一道闪电劈在你身旁。你被冲击波掀翻，Cho扶你起来。"
+        },
+        {
+          "text": "躲进山洞",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们钻进路边一个山洞，雷声在外面响。Cho生了火，两人靠着岩壁等风暴过去。"
+        }
+      ]
+    },
+    {
+      "id": "weather_004",
+      "type": "major",
+      "name": "浓雾迷路",
+      "segments": "andes",
+      "day_range": "1-120",
+      "probability": "15",
+      "condition": "",
+      "trigger_type": "时段roll | weather类随机遭遇",
+      "desc": "大雾突然笼罩山谷，能见度不足5米。Cho停下脚步：“我看不清路了。”",
+      "options": [
+        {
+          "text": "原地等待雾散",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们坐下来等雾散。Cho掏出干粮分你一半。几个小时后，雾终于散了。"
+        },
+        {
+          "text": "用指南针摸索前进",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你掏出指南针，Cho跟在你后面。走了半天，Cho说好像走错了。"
+        },
+        {
+          "text": "爬高观察地形",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你爬上一块大石头，Cho在下面喊你小心。你看到了山谷的方向，但下来时滑了一跤。"
+        }
+      ]
+    },
+    {
+      "id": "weather_005",
+      "type": "major",
+      "name": "热浪中暑",
+      "segments": "transition,brazil",
+      "day_range": "361-480",
+      "probability": "12",
+      "condition": "temperature>80",
+      "trigger_type": "时段roll | weather类随机遭遇",
+      "desc": "午后气温接近40℃，你的头开始晕眩，汗水已经流干了。Cho扶着你：“休息一下。”",
+      "options": [
+        {
+          "text": "找树荫休息+大量喝水",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们找了棵大树坐下，你灌了两瓶水。Cho用叶子给你扇风。"
+        },
+        {
+          "text": "用河水浸湿衣物",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你脱了衣服在河里泡了泡，Cho说你像只落汤鸡。凉快了很多。"
+        },
+        {
+          "text": "强行继续行军",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说没事还能走，走了几百米眼前一黑栽倒了。Cho把你拖到树荫下。"
+        }
+      ]
+    },
+    {
+      "id": "weather_006",
+      "type": "minor",
+      "name": "彩虹泉",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "2",
+      "condition": "",
+      "trigger_type": "时段roll | weather类随机遭遇",
+      "desc": "雨后的天空出现一道完整的彩虹。Cho说：“这是好兆头。”",
+      "options": [
+        {
+          "text": "拍照记录",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你举起相机拍下彩虹。Cho说这张照片值钱。"
+        },
+        {
+          "text": "继续行军",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho拉着你走：“看够了没？”你边走边回头。"
+        },
+        {
+          "text": "许愿",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你闭上眼睛许了个愿。Cho问你许什么，你说说出来就不灵了。"
+        }
+      ]
+    },
+    {
+      "id": "weather_007",
+      "type": "major",
+      "name": "亚马逊涨潮",
+      "segments": "brazil",
+      "day_range": "741-860",
+      "probability": "20",
+      "condition": "",
+      "trigger_type": "时段roll | weather类随机遭遇",
+      "desc": "潮水上涨，泥沼区域的水位瞬间升高了1米。Cho喊：“往高处走！”",
+      "options": [
+        {
+          "text": "快速游向高地",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你把背包举过头顶，Cho在前面游。潮水涨得很快，你差点被冲走。"
+        },
+        {
+          "text": "制作浮具漂浮",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用防水布和绳子绑了个简易浮具，Cho趴在上面。潮水把你推向高地。"
+        },
+        {
+          "text": "抱紧红树根等待退潮",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抱着红树根，Cho抱着你。蚊子咬了一身包，Cho说比鳄鱼强。"
+        }
+      ]
+    },
+    {
+      "id": "health_001",
+      "type": "major",
+      "name": "皮肤真菌感染",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "121-860",
+      "probability": "10",
+      "condition": "",
+      "trigger_type": "状态阈值 | health<某值或时段roll",
+      "desc": "你的腋下和大腿根长出红色疹子，奇痒难忍。Cho说：“雨林癣，不治会烂。”",
+      "options": [
+        {
+          "text": "涂抹抗真菌药膏",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抹了药膏，Cho帮你涂后背。凉丝丝的，痒止住了。"
+        },
+        {
+          "text": "用柠檬汁涂抹",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho切开柠檬让你敷上，酸得你龇牙咧嘴。Cho说管用就行。"
+        },
+        {
+          "text": "不处理",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你觉得没事，几天后疹子开始化脓。Cho看着你：“我说什么来着。”"
+        }
+      ]
+    },
+    {
+      "id": "health_002",
+      "type": "major",
+      "name": "脚部水泡感染",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "15",
+      "condition": "",
+      "trigger_type": "状态阈值 | health<某值或时段roll",
+      "desc": "长时间行军，你的脚底磨出大水泡，走路刺痛。Cho脱下你的鞋看了看。",
+      "options": [
+        {
+          "text": "刺破+消毒包扎",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho用针挑破水泡，挤出血水，消毒包扎。他说：“明天会好点。”"
+        },
+        {
+          "text": "换干袜子+涂油脂",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你换了双干袜子，抹上油脂。Cho说将就一下，明天就好了。"
+        },
+        {
+          "text": "忍着继续走",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你咬着牙继续走，每走一步都疼。Cho放慢速度等你。"
+        }
+      ]
+    },
+    {
+      "id": "health_003",
+      "type": "major",
+      "name": "痢疾爆发",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "121-860",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "状态阈值 | health<某值或时段roll",
+      "desc": "你吃了不干净的东西后，开始剧烈腹泻，脱水严重。Cho扶着你：“得吃药。”",
+      "options": [
+        {
+          "text": "服用止泻药+补水",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你吞了止泻药，灌了两瓶水。Cho看着你：“脸色好点了。”"
+        },
+        {
+          "text": "喝盐水+休息1天",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你喝了碗盐水，睡了整整一天。Cho守在你旁边，没合眼。"
+        },
+        {
+          "text": "硬扛",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说扛得住，拉了三天三夜。Cho说你瘦了一圈。"
+        }
+      ]
+    },
+    {
+      "id": "health_004",
+      "type": "major",
+      "name": "丛林斑疹伤寒",
+      "segments": "transition,brazil",
+      "day_range": "241-860",
+      "probability": "4",
+      "condition": "temperature>80",
+      "trigger_type": "状态阈值 | health<某值或时段roll",
+      "desc": "你开始高烧不退，Cho摸了摸你的额头：“恙螨咬的，得吃药。”",
+      "options": [
+        {
+          "text": "服用强力抗生素",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你吞了抗生素，Cho给你喂水。三天后退烧了，Cho松了口气。"
+        },
+        {
+          "text": "找部落巫医治疗",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho带你去附近的部落，巫医给你喝了碗草药。第二天就退烧了。"
+        },
+        {
+          "text": "硬扛",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说不用，十天后烧退了，但人快虚脱了。Cho说你命大。"
+        }
+      ]
+    },
+    {
+      "id": "health_005",
+      "type": "major",
+      "name": "被蝙蝠咬伤",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "6",
+      "condition": "has_item:headlamp",
+      "trigger_type": "状态阈值 | health<某值或时段roll",
+      "desc": "在山洞过夜时，一只蝙蝠咬了你的手，伤口很小但出血。Cho用手电照了照。",
+      "options": [
+        {
+          "text": "清洗伤口+消毒",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用清水冲洗伤口，Cho帮你涂碘伏。“狂犬病概率降到1%了。”"
+        },
+        {
+          "text": "不处理",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你觉得没事，Cho让你去医院看看。你说哪有医院。"
+        },
+        {
+          "text": "抓住蝙蝠检查",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你一把抓住蝙蝠，Cho吓了一跳。蝙蝠没有狂犬病迹象，Cho说你是疯子。"
+        }
+      ]
+    },
+    {
+      "id": "health_006",
+      "type": "major",
+      "name": "维生素C缺乏",
+      "segments": "transition,brazil",
+      "day_range": "361-860",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "状态阈值 | health<某值或时段roll",
+      "desc": "你的牙龈开始出血，Cho看了看你的嘴：“缺维生素，得吃水果。”",
+      "options": [
+        {
+          "text": "寻找野生水果",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你在林子里找了半天，摘了几个野果。Cho说就是这个，赶紧吃。"
+        },
+        {
+          "text": "服用维生素片",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你从包里翻出维生素片吞了两片，Cho说早该吃了。"
+        },
+        {
+          "text": "不处理",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你觉得不严重，几天后牙龈肿得更厉害了。Cho看着你摇头。"
+        }
+      ]
+    },
+    {
+      "id": "human_001",
+      "type": "major",
+      "name": "迷路的背包客",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "241-860",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll | human类随机事件",
+      "desc": "你遇到一个背包客，他的地图被水泡烂了，正在焦急地找路。Cho问他去哪。",
+      "options": [
+        {
+          "text": "给他指路",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拿出地图帮他指路，背包客千恩万谢，硬塞给你10美元。"
+        },
+        {
+          "text": "让他加入队伍",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "他跟着你们走了三天，帮你们背了些行李。离开时留了20美元。"
+        },
+        {
+          "text": "不理他",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说帮帮他吧，你说没时间。Cho看了你一眼，没说什么。"
+        }
+      ]
+    },
+    {
+      "id": "human_002",
+      "type": "major",
+      "name": "淘金者的营地",
+      "segments": "transition,brazil",
+      "day_range": "361-760",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll | human类随机事件",
+      "desc": "你发现一个淘金营地，几个男人正在河边筛沙，他们警惕地看着你。Cho小声说：“别惹事。”",
+      "options": [
+        {
+          "text": "打招呼并离开",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你挥了挥手，Cho说了句当地话。他们点点头，你们快步离开。"
+        },
+        {
+          "text": "用装备交换黄金",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用砍刀换了点黄金，Cho说你疯了吧。砍刀能救命。"
+        },
+        {
+          "text": "夜间偷黄金",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你半夜溜进营地偷了把金子，第二天被追了几公里。Cho说再也不跟你冒险了。"
+        }
+      ]
+    },
+    {
+      "id": "human_003",
+      "type": "major",
+      "name": "传教士的邀请",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "241-860",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll | human类随机事件",
+      "desc": "一位传教士邀请你去他的教堂，说可以提供食物和住宿。Cho看你的意思。",
+      "options": [
+        {
+          "text": "接受邀请",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们在教堂住了一晚，传教士给你们做了热汤。Cho说这是他一个月来睡得最好的一次。"
+        },
+        {
+          "text": "礼貌拒绝",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你婉拒了，Cho有点失望。传教士祝福你们一路平安。"
+        },
+        {
+          "text": "捐款",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你捐了10美元，传教士送你一本小圣经。Cho说你变了。"
+        }
+      ]
+    },
+    {
+      "id": "human_004",
+      "type": "major",
+      "name": "橡胶工人的帮助",
+      "segments": "transition,brazil",
+      "day_range": "361-860",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll | human类随机事件",
+      "desc": "一个橡胶工人主动带你走捷径，说可以节省3天路程。Cho半信半疑。",
+      "options": [
+        {
+          "text": "跟随他",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们跟着他走了一天，果然省了不少路。Cho和他聊得很开心。"
+        },
+        {
+          "text": "付钱请他当临时向导",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你给了他20美元，他带你们走了两天。Cho说这钱花得值。"
+        },
+        {
+          "text": "怀疑有诈，自己走",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说还是自己走吧。你们绕了一大圈，Cho有点后悔。"
+        }
+      ]
+    },
+    {
+      "id": "human_005",
+      "type": "major",
+      "name": "河盗勒索",
+      "segments": "red_zone",
+      "day_range": "121-360",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll | human类随机事件",
+      "desc": "两个持刀男子拦住你，要你交出所有值钱的东西。Cho把手放在砍刀上。",
+      "options": [
+        {
+          "text": "交钱保命",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你掏出80美元，他们拿了钱走了。Cho说破财消灾。"
+        },
+        {
+          "text": "反抗",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho抽出砍刀，你也拿出刀。打斗中你手臂被划了一道，对方跑了。"
+        },
+        {
+          "text": "跳河逃跑",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拉着Cho跳进河里，游到对岸。Cho说衣服湿了，但命保住了。"
+        }
+      ]
+    },
+    {
+      "id": "human_006",
+      "type": "major",
+      "name": "迷路的德国探险家",
+      "segments": "brazil",
+      "day_range": "481-860",
+      "probability": "3",
+      "condition": "",
+      "trigger_type": "时段roll | human类随机事件",
+      "desc": "你遇到一位德国探险家，他的同伴得了疟疾，急需药品。Cho问你有没有药。",
+      "options": [
+        {
+          "text": "赠送抗疟药",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你从包里翻出抗疟药给他，德国人千恩万谢，送你一把德国军刀。"
+        },
+        {
+          "text": "高价卖给他",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你要了30美元，德国人咬牙付了。Cho说你这趁人之危。"
+        },
+        {
+          "text": "拒绝",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说药不够，Cho看了你一眼。德国人绝望地离开了。"
+        }
+      ]
+    },
+    {
+      "id": "human_007",
+      "type": "major",
+      "name": "庆祝派对",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll | human类随机事件",
+      "desc": "村庄正在庆祝丰收节，村民邀请你一起跳舞喝酒。Cho已经被拉进去了。",
+      "options": [
+        {
+          "text": "参加派对",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你喝了杯甘蔗酒，和村民一起跳舞。Cho喝多了，躺在草垛上傻笑。"
+        },
+        {
+          "text": "参加并送礼",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你送了10美元的礼物，村民更热情了。Cho说你太破费了。"
+        },
+        {
+          "text": "婉拒",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说累了想休息，Cho被拉着没出来。你一个人在营地等他。"
+        }
+      ]
+    },
+    {
+      "id": "gear_001",
+      "type": "major",
+      "name": "砍刀崩刃",
+      "segments": "all",
+      "day_range": "100-760",
+      "probability": "10",
+      "condition": "",
+      "trigger_type": "时段roll | gear类随机事件",
+      "desc": "你用砍刀开路时，刀刃磕在石头上崩出一个大缺口。Cho接过来看了看。",
+      "options": [
+        {
+          "text": "用磨刀石修复",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你掏出磨刀石磨了半天，Cho说勉强能用。"
+        },
+        {
+          "text": "继续使用",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说还能用，就是费劲。你劈了半小时才砍开一条路。"
+        },
+        {
+          "text": "找铁匠修复",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你在村庄找了铁匠，5美元帮你修好了。Cho说比买新的便宜。"
+        }
+      ]
+    },
+    {
+      "id": "gear_002",
+      "type": "major",
+      "name": "靴子底磨穿",
+      "segments": "all",
+      "day_range": "100-860",
+      "probability": "12",
+      "condition": "",
+      "trigger_type": "时段roll | gear类随机事件",
+      "desc": "你的靴子底已经磨平，石子硌得脚底生疼。Cho说要不换一双。",
+      "options": [
+        {
+          "text": "用树皮+藤蔓修补",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你找了块树皮绑在鞋底，Cho帮你系藤蔓。走路不疼了，就是有点滑。"
+        },
+        {
+          "text": "换备用靴",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你从包里翻出备用靴换上，Cho说早就该换了。旧靴子扔了。"
+        },
+        {
+          "text": "赤脚走路",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你把靴子扔了赤脚走，没走几公里脚底就磨破了。Cho说你是白痴。"
+        }
+      ]
+    },
+    {
+      "id": "gear_003",
+      "type": "major",
+      "name": "背包肩带断裂",
+      "segments": "all",
+      "day_range": "100-860",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll | gear类随机事件",
+      "desc": "背包的右肩带突然断裂，所有重量压在左肩上。Cho帮你托着包。",
+      "options": [
+        {
+          "text": "用绳索临时绑定",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用绳子把肩带绑住，Cho说先撑着。走了一天，绳子松了。"
+        },
+        {
+          "text": "缝补+加固",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拿出针线包缝了半天，Cho帮你拉线。加固后比原来还结实。"
+        },
+        {
+          "text": "扔掉部分物资",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你扔了几件不用的东西，包轻了。Cho把你扔的又捡回来了。"
+        }
+      ]
+    },
+    {
+      "id": "gear_004",
+      "type": "major",
+      "name": "发现弹药箱",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "241-760",
+      "probability": "3",
+      "condition": "",
+      "trigger_type": "时段roll | gear类随机事件",
+      "desc": "你找到一个生锈的军用弹药箱，里面有子弹和信号弹。Cho眼睛亮了。",
+      "options": [
+        {
+          "text": "取走子弹",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拿了子弹，Cho说你用得上吗？你说万一呢。"
+        },
+        {
+          "text": "取走信号弹",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拿了信号弹，Cho说可以求救用。"
+        },
+        {
+          "text": "全部带走",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你全塞进包里，Cho说你疯了吧，太沉了。"
+        }
+      ]
+    },
+    {
+      "id": "gear_005",
+      "type": "major",
+      "name": "渔网破损",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "121-760",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll | gear类随机事件",
+      "desc": "你收网时发现渔网被鳄鱼咬了一个大洞，鱼全跑了。Cho气得骂娘。",
+      "options": [
+        {
+          "text": "用藤蔓修补",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你找了些藤蔓补网，Cho帮你穿针。网修好了，就是洞有点大。"
+        },
+        {
+          "text": "放弃渔网",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你把破网扔了，Cho说没了渔网吃什么。"
+        },
+        {
+          "text": "追踪鳄鱼报仇",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你跟着鳄鱼的痕迹找到它，Cho一刀捅进它眼睛。鳄鱼跑了，你们拖回一截肉。"
+        }
+      ]
+    },
+    {
+      "id": "gear_006",
+      "type": "major",
+      "name": "水壶漏水",
+      "segments": "all",
+      "day_range": "40-860",
+      "probability": "10",
+      "condition": "",
+      "trigger_type": "时段roll | gear类随机事件",
+      "desc": "你的水壶底部出现裂缝，水在慢慢渗出。Cho接过去看了看：“还能救。”",
+      "options": [
+        {
+          "text": "用树脂封堵",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你找了块树脂堵住裂缝，Cho说你挺聪明。用了一天又漏了。"
+        },
+        {
+          "text": "换用竹筒",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你砍了根竹子做了个水壶，Cho说环保。用了三天，竹子裂了。"
+        },
+        {
+          "text": "继续使用",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你懒得修，水漏了一路。Cho说你真行。"
+        }
+      ]
+    },
+    {
+      "id": "gear_007",
+      "type": "major",
+      "name": "绳索断裂",
+      "segments": "andes",
+      "day_range": "10-760",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll | gear类随机事件",
+      "desc": "你攀爬时，绳索的中间段突然断裂，你悬在半空中。Cho大喊：“抓住！”",
+      "options": [
+        {
+          "text": "抓住岩壁",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你死死抠住岩缝，指甲裂了。Cho扔下绳子把你拉上去。"
+        },
+        {
+          "text": "用砍刀卡住岩缝",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抽出砍刀卡进岩缝，把自己挂住。Cho爬下来救你。"
+        },
+        {
+          "text": "喊Cho帮忙",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你喊Cho，他丢下另一根绳子把你拉上去。Cho说这根绳子也快断了。"
+        }
+      ]
+    },
+    {
+      "id": "mental_001",
+      "type": "minor",
+      "name": "深夜回忆",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "8",
+      "condition": "energy<50",
+      "trigger_type": "时段roll | mental类随机事件",
+      "desc": "你睡不着，盯着篝火发呆，想起出发前的生活。Cho问你：“在想什么？”",
+      "options": [
+        {
+          "text": "写日记",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你翻开日记本写下今天的心情。Cho说明天给你看。"
+        },
+        {
+          "text": "和Cho聊天",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你和Cho聊了很久，关于过去，关于未来。他说他女儿快生日了。"
+        },
+        {
+          "text": "沉默落泪",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你没说话，Cho把手搭在你肩上。篝火噼啪作响。"
+        }
+      ]
+    },
+    {
+      "id": "mental_002",
+      "type": "major",
+      "name": "幻觉",
+      "segments": "brazil",
+      "day_range": "481-860",
+      "probability": "6",
+      "condition": "energy<20",
+      "trigger_type": "时段roll | mental类随机事件",
+      "desc": "你看到一棵树后面站着你的母亲，但她三年前就去世了。Cho说：“那是树。”",
+      "options": [
+        {
+          "text": "让Cho打醒你",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho扇了你一巴掌：“清醒点！”你摸着脸上的红印，Cho问你好了没。"
+        },
+        {
+          "text": "走向幻觉",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你走过去想抱她，结果掉进一个水坑。Cho把你拉出来。"
+        },
+        {
+          "text": "拍照证明",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你举起相机拍了一张，照片里什么都没有。Cho说你真的疯了。"
+        }
+      ]
+    },
+    {
+      "id": "mental_003",
+      "type": "major",
+      "name": "放弃的念头",
+      "segments": "transition,brazil",
+      "day_range": "361-860",
+      "probability": "10",
+      "condition": "food<20",
+      "trigger_type": "时段roll | mental类随机事件",
+      "desc": "连续三天的暴雨让你崩溃，你开始怀疑这趟旅行的意义。Cho坐在你旁边。",
+      "options": [
+        {
+          "text": "回想初衷",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你想起出发那天站在米斯米山的样子。Cho说：“那就继续走。”"
+        },
+        {
+          "text": "骂自己一顿",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你骂自己是个废物，Cho看着你：“骂完了吗？骂完就走。”"
+        },
+        {
+          "text": "向Cho倾诉",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说了很多，Cho安静地听。最后他说：“我陪着你。”"
+        }
+      ]
+    },
+    {
+      "id": "mental_004",
+      "type": "minor",
+      "name": "美丽的日落",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll | mental类随机事件",
+      "desc": "今天的日落格外壮丽，天空被染成金红色。Cho说：“真美。”",
+      "options": [
+        {
+          "text": "停下来欣赏",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你坐在石头上看着日落，Cho递给你一杯水。他说：“值得。”"
+        },
+        {
+          "text": "拍照",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你按下快门，Cho说你拍不出这种颜色。"
+        },
+        {
+          "text": "无视继续行军",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho拉着你走：“别看了，赶路要紧。”你边走边回头看。"
+        }
+      ]
+    },
+    {
+      "id": "mental_005",
+      "type": "minor",
+      "name": "Cho讲笑话",
+      "segments": "all",
+      "day_range": "121-860",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll | mental类随机事件",
+      "desc": "Cho讲了一个当地笑话，虽然你只听懂一半，但觉得温暖。",
+      "options": [
+        {
+          "text": "大笑",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你笑出声来，Cho也笑了。他说你笑点真低。"
+        },
+        {
+          "text": "礼貌微笑",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你笑了笑，Cho说没听懂吧。你点头。"
+        },
+        {
+          "text": "没听懂，不回应",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho叹了口气：“算了，下次不讲了。”你有点后悔。"
+        }
+      ]
+    },
+    {
+      "id": "river_001",
+      "type": "major",
+      "name": "独木舟残骸",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "121-800",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll | river类随机遭遇",
+      "desc": "你发现一艘搁浅的独木舟，船身完整，似乎被主人遗弃了。Cho摸了摸船底。",
+      "options": [
+        {
+          "text": "修好并划船",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们修了船，划了几天。Cho说比走路快多了。第五天船漏水了。"
+        },
+        {
+          "text": "拆木板当柴火",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们把船拆了当柴火，Cho说你真会过日子。"
+        },
+        {
+          "text": "继续徒步",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说算了，还是走路吧。独木舟留在身后。"
+        }
+      ]
+    },
+    {
+      "id": "river_002",
+      "type": "major",
+      "name": "河马群渡河",
+      "segments": "brazil",
+      "day_range": "481-760",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll | river类随机遭遇",
+      "desc": "一群河马正在过河，它们挡住了你的去路，其中一只朝你张大嘴。Cho拉住你。",
+      "options": [
+        {
+          "text": "绕行上游",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们绕了一大圈，多走了半天。Cho说保命要紧。"
+        },
+        {
+          "text": "等河马过完",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们等了半小时，河马才慢慢过完。Cho说可以走了。"
+        },
+        {
+          "text": "用石块驱赶",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你扔了块石头，河马冲过来。Cho拉着你跑，跑了几百米才甩掉。"
+        }
+      ]
+    },
+    {
+      "id": "river_003",
+      "type": "major",
+      "name": "水中浮尸",
+      "segments": "red_zone,transition",
+      "day_range": "121-760",
+      "probability": "3",
+      "condition": "",
+      "trigger_type": "时段roll | river类随机遭遇",
+      "desc": "你看到一具浮尸卡在树枝间，衣服已经腐烂，身上背着一个背包。Cho沉默了。",
+      "options": [
+        {
+          "text": "打捞背包",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你忍着恶心捞起背包，里面有些药品和水。Cho说死者不会介意。"
+        },
+        {
+          "text": "就地掩埋（水中）",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你把尸体推入水中让它漂走。Cho双手合十念了几句。"
+        },
+        {
+          "text": "快速离开",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拉着Cho快步离开，Cho回头看了一眼。"
+        }
+      ]
+    },
+    {
+      "id": "river_004",
+      "type": "major",
+      "name": "激流险滩",
+      "segments": "andes",
+      "day_range": "60-520",
+      "probability": "10",
+      "condition": "",
+      "trigger_type": "时段roll | river类随机遭遇",
+      "desc": "河水变得湍急，白色浪花拍打岩石，前方有明显的落差。Cho说：“太危险了。”",
+      "options": [
+        {
+          "text": "上岸绕行",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们上岸走山路，Cho在前面开路。累了半天，但安全。"
+        },
+        {
+          "text": "用绳索连人+木筏冲下去",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们绑在一起冲下急流，木筏撞在石头上散了。你们抱着木头漂到下游。"
+        },
+        {
+          "text": "用撑杆慢慢下",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用撑杆控制方向，Cho在后面稳住木筏。慢慢过了急流区。"
+        }
+      ]
+    },
+    {
+      "id": "river_005",
+      "type": "minor",
+      "name": "河床拾贝",
+      "segments": "transition,brazil",
+      "day_range": "361-480",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll | river类随机遭遇",
+      "desc": "旱季河床露出，泥沙中有许多河蚌和螺。Cho蹲下来摸了一个。",
+      "options": [
+        {
+          "text": "采集食用",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们捡了一堆河蚌，Cho生火烤了吃。他说是免费大餐。"
+        },
+        {
+          "text": "采集当诱饵",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你捡了些螺肉当鱼饵，Cho说你真会想。"
+        },
+        {
+          "text": "标记位置下次来",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你在地图上做了标记，Cho说以后不一定能回来。"
+        }
+      ]
+    },
+    {
+      "id": "river_006",
+      "type": "minor",
+      "name": "粉色海豚",
+      "segments": "transition,brazil",
+      "day_range": "241-860",
+      "probability": "3",
+      "condition": "",
+      "trigger_type": "时段roll | river类随机遭遇",
+      "desc": "几只粉色河豚在你附近跃出水面，Cho说它们会带来好运。",
+      "options": [
+        {
+          "text": "投食吸引",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你扔了块肉干，海豚跟着船游了一小时。Cho说它们真有灵性。"
+        },
+        {
+          "text": "拍照",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抓拍了海豚跃出水面的瞬间，Cho说这张照片能卖钱。"
+        },
+        {
+          "text": "无视",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说你不懂浪漫，你笑了笑。"
+        }
+      ]
+    },
+    {
+      "id": "river_007",
+      "type": "major",
+      "name": "浮桥断裂",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "121-760",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll | river类随机遭遇",
+      "desc": "当地人的浮桥被洪水冲断，只剩下几根木桩在水面晃动。Cho说：“怎么过？”",
+      "options": [
+        {
+          "text": "用砍刀做平衡杆走过去",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拿着砍刀当平衡杆走过去了，Cho跟在后面。桥晃了晃没断。"
+        },
+        {
+          "text": "游泳过河",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你下水游泳，Cho跟在后面。水有点急，差点被冲走。"
+        },
+        {
+          "text": "绕路3公里",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们绕了一大圈，找到一处浅滩淌过去了。Cho说多走点路保险。"
+        }
+      ]
+    },
+    {
+      "id": "river_008",
+      "type": "minor",
+      "name": "夜钓发光鱼",
+      "segments": "transition,brazil",
+      "day_range": "241-860",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll | river类随机遭遇",
+      "desc": "夜间河面发出诡异的蓝光，Cho说这是一种会发光的鱼。",
+      "options": [
+        {
+          "text": "撒网捕捞",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你撒了一网，捞上来两条发光的鱼。Cho说能吃吗？"
+        },
+        {
+          "text": "只看不抓",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们蹲在岸边看鱼，Cho说像天上的星星。"
+        },
+        {
+          "text": "用瓶子装水",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你装了一瓶发光的水，Cho说你带这个干嘛。"
+        }
+      ]
+    },
+    {
+      "id": "river_009",
+      "type": "major",
+      "name": "水蛇围攻",
+      "segments": "red_zone,transition,brazil",
+      "day_range": "121-860",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll | river类随机遭遇",
+      "desc": "几条水蛇朝你游来，Cho说无毒但咬人很疼。",
+      "options": [
+        {
+          "text": "用木棍拍打水面",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拿棍子拍水，蛇被吓跑了。Cho说够狠。"
+        },
+        {
+          "text": "快速跑向岸边",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拉着Cho往岸上跑，蛇在后面追。跑上岸，蛇不追了。"
+        },
+        {
+          "text": "让Cho处理",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho挥刀斩了几条蛇，血溅了一身。他说下次你来。"
+        }
+      ]
+    },
+    {
+      "id": "river_010",
+      "type": "minor",
+      "name": "瀑布后洞穴",
+      "segments": "andes",
+      "day_range": "1-120",
+      "probability": "2",
+      "condition": "",
+      "trigger_type": "时段roll | river类随机遭遇",
+      "desc": "你发现瀑布后面有一个隐蔽的洞穴，里面有远古壁画。Cho说：“进去看看。”",
+      "options": [
+        {
+          "text": "进入探索",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们钻进洞穴，墙上画着奇怪的图案。Cho在地上捡到几块陶片和一枚金币。"
+        },
+        {
+          "text": "拍照记录",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拍下壁画，Cho说可以拿去卖钱。"
+        },
+        {
+          "text": "忽略",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho拉着你走，你回头看了一眼瀑布。"
+        }
+      ]
+    },
+    {
+      "id": "night_001",
+      "type": "major",
+      "name": "篝火旁的狼嚎",
+      "segments": "andes,transition",
+      "day_range": "40-680",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll | night类随机遭遇",
+      "desc": "远处传来此起彼伏的嚎叫声，你能看到几十双发光的眼睛。Cho添了根柴。",
+      "options": [
+        {
+          "text": "加柴让火更旺",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你往火里添了柴，火光大亮。狼群退远了，Cho说撑到天亮就好。"
+        },
+        {
+          "text": "鸣枪警告",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你朝天开了一枪，狼群瞬间安静了。Cho说浪费子弹。"
+        },
+        {
+          "text": "保持安静，不理会",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们屏住呼吸，狼群慢慢靠近。一头狼扑向Cho，你用火把把它打跑了。"
+        }
+      ]
+    },
+    {
+      "id": "night_002",
+      "type": "minor",
+      "name": "萤火虫海",
+      "segments": "transition,brazil",
+      "day_range": "241-820",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll | night类随机遭遇",
+      "desc": "整片树林被萤火虫点亮，宛如星河坠落。Cho抬起头：“太美了。”",
+      "options": [
+        {
+          "text": "躺下欣赏",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你躺在地上看萤火虫，Cho也躺下来。谁都没说话。"
+        },
+        {
+          "text": "抓一些当灯笼",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抓了几只放进瓶子里，Cho说你别弄死它们。"
+        },
+        {
+          "text": "继续赶路",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho拉着你走：“看够了没？”你边走边回头。"
+        }
+      ]
+    },
+    {
+      "id": "night_003",
+      "type": "minor",
+      "name": "梦魇",
+      "segments": "brazil",
+      "day_range": "481-840",
+      "probability": "6",
+      "condition": "energy<30",
+      "trigger_type": "时段roll | night类随机遭遇",
+      "desc": "你梦见自己被美洲豹追杀，惊醒后浑身冷汗。Cho递给你水壶。",
+      "options": [
+        {
+          "text": "和Cho讲梦",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你跟Cho讲了梦，他说梦是反的。你喝了口水。"
+        },
+        {
+          "text": "写日记释放",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你摸黑写日记，Cho问你写什么。你说写完告诉你。"
+        },
+        {
+          "text": "继续睡",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你闭上眼睛又睡着了，Cho守了一夜。"
+        }
+      ]
+    },
+    {
+      "id": "night_004",
+      "type": "minor",
+      "name": "蝙蝠群过境",
+      "segments": "all",
+      "day_range": "121-860",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll | night类随机遭遇",
+      "desc": "成千上万只蝙蝠从头顶飞过，遮住了月光。Cho蹲下来。",
+      "options": [
+        {
+          "text": "找遮蔽物躲避",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们躲进树洞里，蝙蝠在外面飞了半小时。Cho说像恐怖片。"
+        },
+        {
+          "text": "用衣物包住头继续走",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用衣服包住头继续走，Cho跟在后面。被蝙蝠撞了几下，不疼。"
+        },
+        {
+          "text": "躺平不动",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你躺在地上不敢动，蝙蝠从身上飞过。Cho说你胆子大。"
+        }
+      ]
+    },
+    {
+      "id": "night_005",
+      "type": "major",
+      "name": "守夜时分",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "10",
+      "condition": "",
+      "trigger_type": "时段roll | night类随机遭遇",
+      "desc": "Cho太累了，需要你帮忙守夜。他把刀递给你：“我睡两小时，你盯着。”",
+      "options": [
+        {
+          "text": "通宵守夜",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你守了一整夜，Cho醒来时你眼皮在打架。他说换我睡吧。"
+        },
+        {
+          "text": "两人轮流睡",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你守前半夜，Cho守后半夜。两人都没睡好，但都醒着。"
+        },
+        {
+          "text": "拒绝，两人都睡",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说不用守，两人都睡着了。半夜被野兽叫声惊醒，Cho说差点出事。"
+        }
+      ]
+    },
+    {
+      "id": "night_006",
+      "type": "major",
+      "name": "神秘鼓声",
+      "segments": "red_zone",
+      "day_range": "121-360",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll | night类随机遭遇",
+      "desc": "远处传来有节奏的鼓声，Cho说这是部落的祭祀仪式。",
+      "options": [
+        {
+          "text": "顺着鼓声寻找",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们顺着鼓声找到部落，对方很友好。Cho说运气好。"
+        },
+        {
+          "text": "绕道远离",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们绕了一大圈，Cho说多走点路安心。"
+        },
+        {
+          "text": "就地扎营，不理会",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们扎营睡觉，鼓声响了一夜。Cho说你真睡得着。"
+        }
+      ]
+    },
+    {
+      "id": "night_007",
+      "type": "minor",
+      "name": "月光指引",
+      "segments": "all",
+      "day_range": "1-860",
+      "probability": "3",
+      "condition": "",
+      "trigger_type": "时段roll | night类随机遭遇",
+      "desc": "月光穿透树冠，照出一条清晰的小路，平时完全看不见。Cho说：“走吗？”",
+      "options": [
+        {
+          "text": "跟随月光路",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们跟着月光走，Cho说像有鬼带路。走了半天，Cho说可能是回家的路。"
+        },
+        {
+          "text": "拍照记录",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拍下月光小路，Cho说这照片很有感觉。"
+        },
+        {
+          "text": "忽略",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说机会难得，你说太晚了。"
+        }
+      ]
+    },
+    {
+      "id": "night_008",
+      "type": "minor",
+      "name": "鬼火",
+      "segments": "transition,brazil",
+      "day_range": "181-760",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll | night类随机遭遇",
+      "desc": "沼泽中飘起绿色的磷火，Cho说这是亡者的灵魂。",
+      "options": [
+        {
+          "text": "走近查看",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你走近了，磷火飘远了。Cho说它们不想见你。"
+        },
+        {
+          "text": "绕开",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho拉着你绕开，磷火在身后飘。"
+        },
+        {
+          "text": "用棍子戳",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用棍子戳散了一团磷火，手上沾了荧光。Cho说你是疯子。"
+        }
+      ]
+    },
+    {
+      "id": "terrain_001",
+      "type": "minor",
+      "name": "雪山冰窟",
+      "segments": "andes",
+      "day_range": "1-50",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll | terrain类随机遭遇",
+      "desc": "你发现一个冰窟，里面有人类生火的痕迹。Cho说：“有人来过。”",
+      "options": [
+        {
+          "text": "进入避风",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们钻进冰窟，风停了。Cho生了火，说能活过来了。"
+        },
+        {
+          "text": "在洞口扎营",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们在洞口扎营，风还是有点大。Cho说总比外面强。"
+        },
+        {
+          "text": "继续前进",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说太冷了，还是进去吧。你说还能走。"
+        }
+      ]
+    },
+    {
+      "id": "terrain_002",
+      "type": "minor",
+      "name": "峡谷回声",
+      "segments": "andes",
+      "day_range": "1-120",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll | terrain类随机遭遇",
+      "desc": "你对峡谷喊了一声，回声反复传来。Cho说有些峡谷会塌方。",
+      "options": [
+        {
+          "text": "大喊几声（宣泄）",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你对着峡谷喊了几声，Cho也喊了。回声在山谷里回荡了很久。"
+        },
+        {
+          "text": "快速通过该段",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们快步走过峡谷，Cho说别喊了。"
+        },
+        {
+          "text": "测试回声强度",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你喊了几声试试，山体有点震动。Cho拉着你跑：“塌方了！”"
+        }
+      ]
+    },
+    {
+      "id": "terrain_003",
+      "type": "minor",
+      "name": "沼泽气泡",
+      "segments": "transition,brazil",
+      "day_range": "241-480",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll | terrain类随机遭遇",
+      "desc": "沼泽表面冒出大泡泡，散发臭味。Cho说：“沼气，别点火。”",
+      "options": [
+        {
+          "text": "点火测试",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你手贱点了火，轰的一声，Cho被气浪掀翻了。他说你是白痴。"
+        },
+        {
+          "text": "绕行",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们绕了一大圈，Cho说多走点路保平安。"
+        },
+        {
+          "text": "用木棍捅破",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用木棍捅破气泡，臭味熏得你直呕。Cho说你自找的。"
+        }
+      ]
+    },
+    {
+      "id": "terrain_004",
+      "type": "minor",
+      "name": "红树林螃蟹",
+      "segments": "brazil",
+      "day_range": "741-860",
+      "probability": "12",
+      "condition": "",
+      "trigger_type": "时段roll | terrain类随机遭遇",
+      "desc": "成千上万只红色小螃蟹从泥洞里钻出来，铺满了地面。Cho说：“太密了。”",
+      "options": [
+        {
+          "text": "抓一些当食物",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抓了一堆螃蟹，Cho生火烤了。他说这是最后的晚餐。"
+        },
+        {
+          "text": "踩过去",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们踩着螃蟹走过去，脚底全是蟹壳碎片。Cho说你残忍。"
+        },
+        {
+          "text": "等它们散去",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们等了半小时，螃蟹才慢慢爬回洞里。Cho说好浪费。"
+        }
+      ]
+    },
+    {
+      "id": "terrain_005",
+      "type": "minor",
+      "name": "高地树屋",
+      "segments": "transition,brazil",
+      "day_range": "241-860",
+      "probability": "3",
+      "condition": "",
+      "trigger_type": "时段roll | terrain类随机遭遇",
+      "desc": "你发现一棵大树上建有一座树屋，可能是猎人留下的。Cho说：“上去看看。”",
+      "options": [
+        {
+          "text": "爬上去过夜",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们爬上去，里面有张吊床。Cho说比地上舒服多了。"
+        },
+        {
+          "text": "搜索物资",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你在角落里找到鱼钩和绳子，Cho说发财了。"
+        },
+        {
+          "text": "忽略",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说太可惜了，没时间。"
+        }
+      ]
+    },
+    {
+      "id": "terrain_006",
+      "type": "minor",
+      "name": "山中温泉",
+      "segments": "andes",
+      "day_range": "1-120",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll | terrain类随机遭遇",
+      "desc": "你发现一处天然温泉，热气腾腾，泉水清澈。Cho已经脱鞋了。",
+      "options": [
+        {
+          "text": "泡温泉1小时",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你泡在水里，Cho说你像退休老头。他说值了。"
+        },
+        {
+          "text": "装瓶带走",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你灌了两瓶温泉水，Cho说还能喝。"
+        },
+        {
+          "text": "标记位置",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你在地图上做了标记，Cho说以后带家人来。"
+        }
+      ]
+    },
+    {
+      "id": "terrain_007",
+      "type": "major",
+      "name": "被火烧过的森林",
+      "segments": "transition,brazil",
+      "day_range": "361-480",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll | terrain类随机遭遇",
+      "desc": "你走入一片被山火烧过的森林，焦黑的树干还冒着烟。Cho捂着鼻子。",
+      "options": [
+        {
+          "text": "快速通过",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们快步走过，Cho咳嗽了几声。他说空气太差了。"
+        },
+        {
+          "text": "绕行",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们绕了一大圈，多走了半天。Cho说值了。"
+        },
+        {
+          "text": "查看是否有动物尸体",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你找到一头烧死的野猪，Cho割了几块肉。他说烤熟了能保存几天。"
+        }
+      ]
+    },
+    {
+      "id": "terrain_008",
+      "type": "minor",
+      "name": "巨石阵",
+      "segments": "transition,brazil",
+      "day_range": "241-860",
+      "probability": "2",
+      "condition": "",
+      "trigger_type": "时段roll | terrain类随机遭遇",
+      "desc": "一块巨石上刻着看不懂的符号，周围散落着陶片。Cho说：“是古迹。”",
+      "options": [
+        {
+          "text": "抄下符号",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你抄下符号，Cho说到下个村子可以换钱。"
+        },
+        {
+          "text": "挖掘周围",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你挖了半天，找到一件玉器。Cho说可能值不少钱。"
+        },
+        {
+          "text": "不理会",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说太可惜了，你说赶路要紧。"
+        }
+      ]
+    },
+    {
+      "id": "season_001",
+      "type": "major",
+      "name": "雨季第一场雨",
+      "segments": "red_zone,transition",
+      "day_range": "121-180",
+      "probability": "100",
+      "condition": "",
+      "trigger_type": "天数/季节 | day=90 雨季开始",
+      "desc": "雨季的第一场暴雨来得猛烈，你和Cho措手不及。Cho喊：“快支雨棚！”",
+      "options": [
+        {
+          "text": "搭临时雨棚",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们用防水布搭了个雨棚，Cho说比帐篷管用。雨下了三小时。"
+        },
+        {
+          "text": "找大树避雨",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们躲在大树下，雷在头顶炸响。Cho说下次还是支雨棚吧。"
+        },
+        {
+          "text": "冒雨继续",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说没事继续走，Cho跟在后面。第二天你发烧了。"
+        }
+      ]
+    },
+    {
+      "id": "season_002",
+      "type": "major",
+      "name": "旱季大火",
+      "segments": "transition,brazil",
+      "day_range": "361-480",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "天数/季节 | 特定天数或季节",
+      "desc": "远处森林起火，浓烟滚滚，火势正在蔓延。Cho说：“得跑。”",
+      "options": [
+        {
+          "text": "逆风逃离",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们逆风跑，Cho在前面。跑了几个小时，终于安全了。"
+        },
+        {
+          "text": "协助灭火（制隔离带）",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们帮村民挖隔离带，火没烧过来。村长给了20美元感谢你们。"
+        },
+        {
+          "text": "躲进河水中",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们跳进河里，水没过头顶。火从岸边烧过去，Cho说命保住了。"
+        }
+      ]
+    },
+    {
+      "id": "season_003",
+      "type": "minor",
+      "name": "雨季青蛙合唱",
+      "segments": "transition",
+      "day_range": "241-480",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "天数/季节 | 特定天数或季节",
+      "desc": "雨后的夜晚，成千上万只青蛙开始合唱，声音震耳欲聋。Cho捂着耳朵。",
+      "options": [
+        {
+          "text": "享受自然",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你闭上眼睛听蛙鸣，Cho说你变态。"
+        },
+        {
+          "text": "用录音机录下",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你录下蛙鸣，Cho说可以当白噪音。"
+        },
+        {
+          "text": "捂住耳朵睡觉",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用衣服捂住耳朵，Cho也学你。蛙鸣还是听得见。"
+        }
+      ]
+    },
+    {
+      "id": "season_004",
+      "type": "major",
+      "name": "旱季沙尘",
+      "segments": "transition,brazil",
+      "day_range": "361-480",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "天数/季节 | 特定天数或季节",
+      "desc": "旱季的河床变成沙地，大风卷起沙尘暴，能见度极低。Cho用衣服捂着脸。",
+      "options": [
+        {
+          "text": "找岩石背风处躲避",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们找了块大石头躲在后面，Cho说等沙尘过去。"
+        },
+        {
+          "text": "用衣物蒙住口鼻继续",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用衣服捂住脸继续走，Cho跟在后面。沙尘打在脸上生疼。"
+        },
+        {
+          "text": "就地挖坑躲藏",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们挖了个坑躺进去，Cho说像埋死人。"
+        }
+      ]
+    },
+    {
+      "id": "season_005",
+      "type": "minor",
+      "name": "雨季蘑菇爆发",
+      "segments": "transition",
+      "day_range": "241-480",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "天数/季节 | 特定天数或季节",
+      "desc": "雨后森林里冒出一大片蘑菇，五颜六色。Cho说：“别乱采。”",
+      "options": [
+        {
+          "text": "只采Cho认识的",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho挑了几种蘑菇，说能吃。晚上煮了汤，你说好鲜。"
+        },
+        {
+          "text": "全部采集",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你采了一大堆，晚上吃了上吐下泻。Cho说活该。"
+        },
+        {
+          "text": "不采",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说可惜了，你说安全第一。"
+        }
+      ]
+    },
+    {
+      "id": "season_006",
+      "type": "minor",
+      "name": "旱季星空",
+      "segments": "transition,brazil",
+      "day_range": "361-480",
+      "probability": "3",
+      "condition": "",
+      "trigger_type": "天数/季节 | 特定天数或季节",
+      "desc": "旱季的天空万里无云，银河清晰可见。Cho说：“真亮。”",
+      "options": [
+        {
+          "text": "躺着看星星",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你躺在地上看银河，Cho也躺下来。他说像小时候。"
+        },
+        {
+          "text": "用望远镜观察",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拿出望远镜看星星，Cho说看到流星记得许愿。"
+        },
+        {
+          "text": "继续行军",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说太累了，还是扎营吧。你说好。"
+        }
+      ]
+    },
+    {
+      "id": "auto_001",
+      "type": "auto",
+      "name": "进入红色区域",
+      "segments": "red_zone",
+      "day_range": "141-150",
+      "probability": "100",
+      "condition": "",
+      "trigger_type": "路段切换 | 进入red_zone首个时段",
+      "desc": "你们走出安第斯山脉，Cho停下脚步：“前面就是红色区域了。毒贩、游击队，还有会吃人的虫子。”他看着你，“还走吗？”",
+      "options": [
+        {
+          "text": "继续前进",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你点点头。Cho笑了：“就知道你会这么说。”"
+        }
+      ]
+    },
+    {
+      "id": "auto_002",
+      "type": "auto",
+      "name": "进入过渡地带",
+      "segments": "transition",
+      "day_range": "401-410",
+      "probability": "100",
+      "condition": "",
+      "trigger_type": "路段切换 | 进入transition首个时段",
+      "desc": "你们走出红色区域，Cho回头看了一眼：“我们活着出来了。”他的声音有点发抖。“前面是低地雨林，洪水、沼泽，还有森蚺。”",
+      "options": [
+        {
+          "text": "继续前进",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "“走吧，”你说，“还没到海边。”Cho跟了上来。"
+        }
+      ]
+    },
+    {
+      "id": "auto_003",
+      "type": "auto",
+      "name": "进入巴西冲刺",
+      "segments": "brazil",
+      "day_range": "681-690",
+      "probability": "100",
+      "condition": "",
+      "trigger_type": "路段切换 | 进入brazil首个时段",
+      "desc": "你们站在巴西雨林的边缘，Cho张开双臂：“欢迎来到巴西，我的朋友。最艰难的部分来了。”",
+      "options": [
+        {
+          "text": "继续前进",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你和Cho碰了碰拳。“走吧，还没完。”"
+        }
+      ]
+    },
+    {
+      "id": "auto_004",
+      "type": "auto",
+      "name": "GPS损坏",
+      "segments": "brazil",
+      "day_range": "691-700",
+      "probability": "100",
+      "condition": "has_item:gps",
+      "trigger_type": "路段切换 | day>=60随机",
+      "desc": "你的GPS屏幕闪了几下，然后彻底黑了。Cho把他的指南针递给你：“用这个吧，我爷爷用它走了一辈子。”",
+      "options": [
+        {
+          "text": "依靠指南针和地图",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你接过指南针，Cho拍了拍你的肩膀。“没事的，我们还没迷路过。”"
+        }
+      ]
+    },
+    {
+      "id": "andes_colca",
+      "type": "major",
+      "name": "科尔卡峡谷奇观",
+      "segments": "andes",
+      "day_range": "42-52",
+      "probability": "",
+      "condition": "里程≈252km 到达andes_L04",
+      "trigger_type": "地标 | landmark_andes_04",
+      "desc": "",
+      "options": []
+    },
+    {
+      "id": "red_satipo",
+      "type": "major",
+      "name": "萨蒂波：进入VRAEM",
+      "segments": "red_zone",
+      "day_range": "233-243",
+      "probability": "",
+      "condition": "里程≈1400km 到达red_L01",
+      "trigger_type": "地标 | landmark_red_01",
+      "desc": "",
+      "options": []
+    },
+    {
+      "id": "red_atalaya",
+      "type": "major",
+      "name": "阿塔拉亚小镇",
+      "segments": "red_zone",
+      "day_range": "318-328",
+      "probability": "",
+      "condition": "里程≈1913km 到达red_L04",
+      "trigger_type": "地标 | landmark_red_04",
+      "desc": "",
+      "options": []
+    },
+    {
+      "id": "red_pucallpa",
+      "type": "major",
+      "name": "普卡尔帕：走出红区",
+      "segments": "red_zone",
+      "day_range": "467-477",
+      "probability": "",
+      "condition": "里程≈2804km 到达red_L08",
+      "trigger_type": "地标 | landmark_red_08",
+      "desc": "",
+      "options": []
+    },
+    {
+      "id": "trans_iquitos",
+      "type": "major",
+      "name": "伊基托斯：最后的现代",
+      "segments": "transition",
+      "day_range": "683-693",
+      "probability": "",
+      "condition": "里程≈4100km 到达trans_L01",
+      "trigger_type": "地标 | landmark_trans_01",
+      "desc": "",
+      "options": []
+    },
+    {
+      "id": "trans_border",
+      "type": "major",
+      "name": "三国交界：圣罗莎",
+      "segments": "transition",
+      "day_range": "822-832",
+      "probability": "",
+      "condition": "里程≈4937km 到达trans_L05",
+      "trigger_type": "地标 | landmark_trans_05",
+      "desc": "",
+      "options": []
+    },
+    {
+      "id": "brazil_coari",
+      "type": "major",
+      "name": "科阿里：进入巴西",
+      "segments": "brazil",
+      "day_range": "1133-1143",
+      "probability": "",
+      "condition": "里程≈6800km 到达brazil_L01",
+      "trigger_type": "地标 | landmark_brazil_01",
+      "desc": "",
+      "options": []
+    },
+    {
+      "id": "brazil_manaus",
+      "type": "major",
+      "name": "马瑙斯：黑白河汇流",
+      "segments": "brazil",
+      "day_range": "1278-1288",
+      "probability": "",
+      "condition": "里程≈7668km 到达brazil_L05",
+      "trigger_type": "地标 | landmark_brazil_05",
+      "desc": "",
+      "options": []
+    },
+    {
+      "id": "brazil_santarem",
+      "type": "major",
+      "name": "圣塔伦：塔帕若斯汇流",
+      "segments": "brazil",
+      "day_range": "1502-1512",
+      "probability": "",
+      "condition": "里程≈9012km 到达brazil_L12",
+      "trigger_type": "地标 | landmark_brazil_12",
+      "desc": "",
+      "options": []
+    },
+    {
+      "id": "brazil_belem",
+      "type": "major",
+      "name": "贝伦：河口之城",
+      "segments": "brazil",
+      "day_range": "1595-1605",
+      "probability": "",
+      "condition": "里程≈9572km 到达brazil_L17",
+      "trigger_type": "地标 | landmark_brazil_17",
+      "desc": "",
+      "options": []
+    },
+    {
+      "id": "brazil_maruda",
+      "type": "major",
+      "name": "马鲁达：淡水遇见海水",
+      "segments": "brazil",
+      "day_range": "1600-1610",
+      "probability": "",
+      "condition": "里程≈9600km 到达brazil_L18",
+      "trigger_type": "地标 | landmark_brazil_18",
+      "desc": "",
+      "options": []
+    },
+    {
+      "id": "andes_spe_001",
+      "type": "major",
+      "name": "羊驼商队",
+      "segments": "andes",
+      "day_range": "10-80",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "你们遇到一支驮着货物的羊驼商队，领头的是个沉默的印第安老人。Cho上前问路，老人指了指远处的雪山，说了句听不懂的话。",
+      "options": [
+        {
+          "text": "用盐换羊驼毛",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你掏出盐块，老人收下后给了你两团柔软的羊驼毛。Cho说这毛值钱。"
+        },
+        {
+          "text": "帮老人赶羊驼",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们帮老人赶了半天的羊驼，他请你们喝热汤。Cho说这是最好的报酬。"
+        },
+        {
+          "text": "直接离开",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho说老人的方向不对，你坚持按地图走。Cho叹了口气。"
+        }
+      ]
+    },
+    {
+      "id": "andes_spe_002",
+      "type": "minor",
+      "name": "普纳草原野火",
+      "segments": "andes",
+      "day_range": "30-100",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "远方的普纳草原升起一缕青烟，Cho说可能是自然野火，也可能是牧民的篝火失控了。风吹向你们的方向。",
+      "options": [
+        {
+          "text": "逆风绕行",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们逆着风绕了一大圈，Cho说保命要紧。"
+        },
+        {
+          "text": "快速通过火区边缘",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们捂着口鼻冲过去，Cho咳嗽了很久，眼睛红红的。"
+        },
+        {
+          "text": "帮忙灭火",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用树枝拍打火苗，Cho在旁边铲土。火灭了，你们的衣服也焦了。"
+        }
+      ]
+    },
+    {
+      "id": "andes_spe_003",
+      "type": "major",
+      "name": "山间矿洞",
+      "segments": "andes",
+      "day_range": "40-110",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "路边有一个废弃的矿洞，洞口堆着生锈的工具。Cho捡起一把镐子：“有人在这里挖过银子。”",
+      "options": [
+        {
+          "text": "进洞探索",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们钻进洞里，在深处发现几块银矿石。Cho说发财了。"
+        },
+        {
+          "text": "在洞口休息",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们在洞口避风休息了一小时，Cho说你胆子小。"
+        },
+        {
+          "text": "用炸药炸开塌方处",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你找到一些旧炸药点燃扔进塌方处，爆炸后露出一个木箱，里面有银币。Cho说你是疯子。"
+        }
+      ]
+    },
+    {
+      "id": "andes_spe_004",
+      "type": "minor",
+      "name": "高山冰瀑",
+      "segments": "andes",
+      "day_range": "15-60",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "一条冻结的瀑布挂在岩壁上，像巨大的水晶吊灯。Cho敲下一块冰柱放进嘴里：“甜的。”",
+      "options": [
+        {
+          "text": "爬冰瀑",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你试着攀爬冰瀑，冰面太滑摔了下来。Cho说你太鲁莽了。"
+        },
+        {
+          "text": "在冰瀑下拍照",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拍了几张照片，Cho说你拍不出它的美。"
+        },
+        {
+          "text": "收集冰水",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你敲下几块冰装进水壶，化了够喝半天。Cho说聪明。"
+        }
+      ]
+    },
+    {
+      "id": "andes_spe_005",
+      "type": "major",
+      "name": "神庙遗址",
+      "segments": "andes",
+      "day_range": "50-120",
+      "probability": "3",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "你们发现一座印加石制神龛，旁边放着几片古柯叶和一小瓶玉米酒。Cho双手合十：“这是祭山神的。”",
+      "options": [
+        {
+          "text": "献上自己的古柯叶",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你也掏出古柯叶放在神龛上，Cho笑了：“山神会保佑你的。”"
+        },
+        {
+          "text": "拿走贡品",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你把贡品塞进包里，Cho脸色变了。当天下午你摔了一跤。"
+        },
+        {
+          "text": "在神龛旁睡觉",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们在神龛旁扎营，Cho说山神会守着你们。一夜无梦。"
+        }
+      ]
+    },
+    {
+      "id": "andes_spe_006",
+      "type": "minor",
+      "name": "高原湖泊",
+      "segments": "andes",
+      "day_range": "20-90",
+      "probability": "7",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "一片碧蓝的高原湖泊出现在眼前，湖面上有几只粉红色的火烈鸟在觅食。Cho蹲下来摸了摸水：“冰的。”",
+      "options": [
+        {
+          "text": "下水游泳",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你脱了衣服跳进湖里，冰得直哆嗦。Cho在岸上笑得直不起腰。"
+        },
+        {
+          "text": "用湖水煮茶",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用湖水煮了古柯茶，Cho说这是他喝过最好的茶。"
+        },
+        {
+          "text": "拍火烈鸟",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你偷偷靠近拍了几张照片，Cho说你像狗仔队。"
+        }
+      ]
+    },
+    {
+      "id": "andes_spe_007",
+      "type": "major",
+      "name": "山体滑坡",
+      "segments": "andes",
+      "day_range": "30-120",
+      "probability": "10",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "碎石从山坡上滚下来，Cho拉着你躲到一块巨石后面。几块大石头砸在你们刚才站的地方。",
+      "options": [
+        {
+          "text": "快速冲过去",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们趁着间隙冲过去，Cho被一块飞石擦伤了手臂。"
+        },
+        {
+          "text": "绕行山谷",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们绕了三个小时的山路，Cho说总比被埋了强。"
+        },
+        {
+          "text": "等滑坡结束",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们躲在巨石后等了半小时，滑坡停了才继续走。"
+        }
+      ]
+    },
+    {
+      "id": "andes_spe_008",
+      "type": "minor",
+      "name": "冰河渡口",
+      "segments": "andes",
+      "day_range": "5-40",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "融化的雪水汇成激流，挡住了去路。Cho用木棍探了探水深：“能过，但水会到大腿。”",
+      "options": [
+        {
+          "text": "脱鞋涉水",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你脱了鞋下水，冰得脚趾发麻。Cho在后面扶着你。"
+        },
+        {
+          "text": "用石头搭路",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们搬石头搭了一条路，Cho滑了一跤，膝盖磕破了。"
+        },
+        {
+          "text": "沿河找桥",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们沿着河走了一小时，找到一座独木桥。Cho说运气好。"
+        }
+      ]
+    },
+    {
+      "id": "red_spe_001",
+      "type": "major",
+      "name": "古柯田守望者",
+      "segments": "red_zone",
+      "day_range": "121-240",
+      "probability": "10",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "一片古柯田出现在路边，一个戴草帽的男人坐在田埂上，手里拿着砍刀。他看了你们一眼，没说话。",
+      "options": [
+        {
+          "text": "快速通过",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拉着Cho快步走过，男人的目光一直跟着你们。"
+        },
+        {
+          "text": "给男人递烟",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你递了根烟，男人接过点着，指了指安全的方向。Cho说这招管用。"
+        },
+        {
+          "text": "问路",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你停下来问路，男人用砍刀指了指你们来的方向。Cho说快走。"
+        }
+      ]
+    },
+    {
+      "id": "red_spe_002",
+      "type": "minor",
+      "name": "废弃毒品实验室",
+      "segments": "red_zone",
+      "day_range": "150-230",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "丛林中飘来刺鼻的化学气味，你们发现一个废弃的简易实验室，桶里还有残留的液体。Cho捂着鼻子。",
+      "options": [
+        {
+          "text": "搜索实验室",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你翻了一遍，找到几瓶化学药品和一卷现金。Cho说这不是干净钱。"
+        },
+        {
+          "text": "放火烧掉",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你倒了桶里的液体点了火，Cho拉着你跑。火焰蹿得很高，Cho说会被人发现。"
+        },
+        {
+          "text": "快速离开",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们快步离开，Cho回头看了一眼：“希望别有人再来了。”"
+        }
+      ]
+    },
+    {
+      "id": "red_spe_003",
+      "type": "major",
+      "name": "河边洗衣妇",
+      "segments": "red_zone",
+      "day_range": "160-220",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "几个女人在河边洗衣服，她们看到你们后停下手中的活，窃窃私语。一个年长的女人朝你们招了招手。",
+      "options": [
+        {
+          "text": "过去打招呼",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你走过去，女人递给你一碗水。Cho翻译说她问你们从哪里来。"
+        },
+        {
+          "text": "给她们一些盐",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你掏出盐递给她们，女人们笑了，塞给你几个煮熟的玉米。"
+        },
+        {
+          "text": "装作没看见",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拉着Cho绕开了，Cho说你太冷漠了。"
+        }
+      ]
+    },
+    {
+      "id": "red_spe_004",
+      "type": "major",
+      "name": "丛林游击队",
+      "segments": "red_zone",
+      "day_range": "180-240",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "几个身穿迷彩服、背着步枪的男人出现在小路上，领头的人用西班牙语问你们话。Cho的脸色变了。",
+      "options": [
+        {
+          "text": "交过路费",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你掏出100美元，领头的人收了钱挥了挥手。Cho说破财消灾。"
+        },
+        {
+          "text": "装傻充愣",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你装作听不懂，对方搜了你们的包，拿走150美元。Cho说命还在就行。"
+        },
+        {
+          "text": "让Cho交涉",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "Cho用当地话和他们聊了几句，递了50美元。对方放行了，还说前方安全。"
+        }
+      ]
+    },
+    {
+      "id": "red_spe_005",
+      "type": "minor",
+      "name": "黑市商人",
+      "segments": "red_zone",
+      "day_range": "200-230",
+      "probability": "7",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "一个穿花衬衫的男人从树后探出头，手里提着一个编织袋，低声问你们要不要“好东西”。",
+      "options": [
+        {
+          "text": "买抗疟药",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你买了三片抗疟药，男人收了钱就消失了。Cho说可能是真药。"
+        },
+        {
+          "text": "买情报",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你花钱买了前方路况的情报，男人说河上有巡逻队。"
+        },
+        {
+          "text": "不理他",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拉着Cho快速走开，男人在身后骂了一句。"
+        }
+      ]
+    },
+    {
+      "id": "red_spe_006",
+      "type": "major",
+      "name": "河岸渡口",
+      "segments": "red_zone",
+      "day_range": "170-240",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "一条大河挡住了去路，岸边停着几艘破旧的小船。一个老头坐在树下打盹，脚边放着船桨。",
+      "options": [
+        {
+          "text": "租船过河",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "老头收了30美元，把你们撑过河。Cho说太贵了。"
+        },
+        {
+          "text": "自己划船过去",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你偷了一艘小船划过去，老头在岸边骂骂咧咧。Cho说你够狠。"
+        },
+        {
+          "text": "沿河找浅滩",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们沿着河走了半天，找到一处浅滩涉水过去。Cho说腿都软了。"
+        }
+      ]
+    },
+    {
+      "id": "red_spe_007",
+      "type": "minor",
+      "name": "阿沙宁卡猎人",
+      "segments": "red_zone",
+      "day_range": "180-220",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "一个脸上涂着红色图案的土著猎人扛着吹箭筒从林子里走出来。他看了看你们，指了指天，意思是快下雨了。",
+      "options": [
+        {
+          "text": "用肉干换吹箭筒",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用五块肉干换了一个吹箭筒，Cho说这玩意儿能用吗。"
+        },
+        {
+          "text": "跟猎人学狩猎",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "猎人教你们用吹箭打了一只鸟，Cho说他比你好。"
+        },
+        {
+          "text": "快速离开",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说还要赶路，Cho回头看了一眼猎人的背影。"
+        }
+      ]
+    },
+    {
+      "id": "red_spe_008",
+      "type": "major",
+      "name": "夜宿弃屋",
+      "segments": "red_zone",
+      "day_range": "190-240",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "你们发现一间破旧的木屋，门半掩着，里面堆着干草。Cho说可以过夜。",
+      "options": [
+        {
+          "text": "进屋过夜",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们在干草堆上睡了一夜，Cho说比帐篷暖和。"
+        },
+        {
+          "text": "搜索屋子",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你在墙角找到两罐豆子和一些硬币，Cho说你像老鼠。"
+        },
+        {
+          "text": "在屋外扎营",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说不安全，在屋外扎了营。Cho半夜被冻醒。"
+        }
+      ]
+    },
+    {
+      "id": "trans_spe_001",
+      "type": "major",
+      "name": "漂浮村庄",
+      "segments": "transition",
+      "day_range": "260-350",
+      "probability": "7",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "你们看到一个建在木筏上的村庄，房子随着水波摇晃。孩子们坐在木板上钓鱼，看到你们后大声喊叫。",
+      "options": [
+        {
+          "text": "上村买东西",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们爬上漂浮村，买了些大米和鱼干。Cho说这里的人怎么过日子。"
+        },
+        {
+          "text": "帮村民修房子",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们帮忙钉了几块木板，村民送了一顿饭。Cho说这顿最香。"
+        },
+        {
+          "text": "绕过去",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说太浪费时间，绕开了。Cho回头看了好几眼。"
+        }
+      ]
+    },
+    {
+      "id": "trans_spe_002",
+      "type": "minor",
+      "name": "粉红江豚",
+      "segments": "transition",
+      "day_range": "300-400",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "几只粉红江豚在船边跃出水面，Cho伸手摸了摸其中一只的背脊。它们发出婴儿般的叫声。",
+      "options": [
+        {
+          "text": "跳下水一起游",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你跳下水，江豚围着你转。Cho说你疯了，但也在笑。"
+        },
+        {
+          "text": "喂它们鱼干",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你扔了两块肉干，江豚争抢着吃。Cho说它们像小狗。"
+        },
+        {
+          "text": "拍照",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拍了几张照片，Cho说回去可以给女儿看。"
+        }
+      ]
+    },
+    {
+      "id": "trans_spe_003",
+      "type": "major",
+      "name": "垂死的大树",
+      "segments": "transition",
+      "day_range": "330-420",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "一棵巨大的木棉树倒在地上，树干上长满了真菌和苔藓。Cho摸了摸树皮：“这棵树至少活了五百年。”",
+      "options": [
+        {
+          "text": "采集真菌",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你采了一些药用真菌，Cho说可以卖钱。"
+        },
+        {
+          "text": "在树干旁扎营",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们靠着树干扎营，Cho说这棵树会保护你们。"
+        },
+        {
+          "text": "刻下名字",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用刀在树皮上刻了名字，Cho说你破坏了古迹。"
+        }
+      ]
+    },
+    {
+      "id": "trans_spe_004",
+      "type": "major",
+      "name": "水蟒交配池",
+      "segments": "transition",
+      "day_range": "350-450",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "一个水潭里，几条绿色的森蚺纠缠在一起，水面翻涌。Cho拉着你后退：“它们在交配，别惹它们。”",
+      "options": [
+        {
+          "text": "绕一大圈",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们绕了半小时，Cho说值得。"
+        },
+        {
+          "text": "远远观察",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你蹲在远处看了十分钟，Cho说回去可以写本书。"
+        },
+        {
+          "text": "扔石头赶走它们",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你扔了块石头，一条森蚺冲过来。Cho拉着你跑了一百米。"
+        }
+      ]
+    },
+    {
+      "id": "trans_spe_005",
+      "type": "minor",
+      "name": "树冠吊床",
+      "segments": "transition",
+      "day_range": "380-470",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "你们发现一张挂在两棵树之间的网，像一张巨大的吊床。Cho爬上去试了试：“够结实。”",
+      "options": [
+        {
+          "text": "睡上面",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你爬上吊床睡了午觉，Cho说这是雨林里的五星级酒店。"
+        },
+        {
+          "text": "拆下带走",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你把网拆下来当吊床，Cho说你是偷东西。"
+        },
+        {
+          "text": "继续赶路",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说没时间休息，Cho叹了口气。"
+        }
+      ]
+    },
+    {
+      "id": "trans_spe_006",
+      "type": "major",
+      "name": "橡胶树割口",
+      "segments": "transition",
+      "day_range": "390-480",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "你发现一棵橡胶树的树皮上有V形割口，乳白色的胶汁正在流淌。Cho说这里还有人在采胶。",
+      "options": [
+        {
+          "text": "收集胶汁",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用树叶接了些胶汁，Cho说可以卖钱。"
+        },
+        {
+          "text": "等采胶人来",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们在树下等了半天，来了个采胶人，他请你们喝了碗胶汁茶。"
+        },
+        {
+          "text": "继续赶路",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说没时间等，Cho说可惜了。"
+        }
+      ]
+    },
+    {
+      "id": "trans_spe_007",
+      "type": "minor",
+      "name": "大雨蛙",
+      "segments": "transition",
+      "day_range": "280-380",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "一只拳头大的雨蛙蹲在叶片上，叫声像鸭子。Cho说你轻轻一碰它就会鼓起来。",
+      "options": [
+        {
+          "text": "碰一下",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你轻轻碰了它一下，雨蛙鼓成了球。Cho笑得前仰后合。"
+        },
+        {
+          "text": "抓走当宠物",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你把它装进袋子，Cho说你会后悔的。第二天它跑了。"
+        },
+        {
+          "text": "忽略",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说别浪费时间，Cho看了你一眼。"
+        }
+      ]
+    },
+    {
+      "id": "trans_spe_008",
+      "type": "major",
+      "name": "洪泛区钓鱼",
+      "segments": "transition",
+      "day_range": "310-410",
+      "probability": "10",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "洪水淹没了大片的森林，鱼儿在树枝间游来游去。Cho说他可以用棍子叉鱼。",
+      "options": [
+        {
+          "text": "跟Cho叉鱼",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们用削尖的木棍叉了五条鱼，Cho说够吃两天了。"
+        },
+        {
+          "text": "撒网捕鱼",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你撒了一网，捞上来八条鱼。Cho说你是渔夫。"
+        },
+        {
+          "text": "继续赶路",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说没时间，Cho说你会后悔的。"
+        }
+      ]
+    },
+    {
+      "id": "brazil_spe_001",
+      "type": "major",
+      "name": "马瑙斯黑市商人",
+      "segments": "brazil",
+      "day_range": "620-640",
+      "probability": "6",
+      "condition": "has_item:gps",
+      "trigger_type": "时段roll",
+      "desc": "马瑙斯黑市角落里，一个戴墨镜的男人朝你们招手。“GPS坏了？”他指了指Cho手里的指南针，“我有更好的。”",
+      "options": [
+        {
+          "text": "买军用GPS",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你花200美元买了个军用GPS，Cho说半个月后就到终点了。"
+        },
+        {
+          "text": "买假证件",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你买了套假证件，Cho说有什么用。"
+        },
+        {
+          "text": "不买",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说不用了，Cho说这才是正解。"
+        }
+      ]
+    },
+    {
+      "id": "brazil_spe_002",
+      "type": "minor",
+      "name": "河滩露营",
+      "segments": "brazil",
+      "day_range": "630-730",
+      "probability": "8",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "你们在一片白色沙滩上扎营，Cho说这是全程最好的营地。月光洒在水面上，银光闪闪。",
+      "options": [
+        {
+          "text": "躺在沙滩上看星星",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你躺在沙滩上看银河，Cho在旁边数流星。"
+        },
+        {
+          "text": "下水游泳",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你脱了衣服跳进水里，Cho说太黑了看不见。"
+        },
+        {
+          "text": "生篝火烤鱼",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你烤了两条鱼，Cho说这是他吃过最好吃的。"
+        }
+      ]
+    },
+    {
+      "id": "brazil_spe_003",
+      "type": "major",
+      "name": "河上浮木",
+      "segments": "brazil",
+      "day_range": "650-750",
+      "probability": "7",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "一根巨大的浮木从上游漂下来，上面趴着一只凯门鳄。它睁开一只眼看你们，又闭上了。",
+      "options": [
+        {
+          "text": "快速划船避开",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们拼命划船避开，鳄鱼随着浮木漂远了。"
+        },
+        {
+          "text": "用棍子戳它",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你手贱戳了一下，鳄鱼醒了。Cho差点掉水里。"
+        },
+        {
+          "text": "拍照",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拍了张照片，鳄鱼看起来像在晒太阳。"
+        }
+      ]
+    },
+    {
+      "id": "brazil_spe_004",
+      "type": "major",
+      "name": "河豚部落",
+      "segments": "brazil",
+      "day_range": "680-780",
+      "probability": "5",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "你们遇到一个以捕江豚为生的部落，族长说江豚是他们的祖先，只在大潮时才捕。",
+      "options": [
+        {
+          "text": "参加捕豚仪式",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们参加了仪式，喝了豚油汤。Cho说味道奇怪。"
+        },
+        {
+          "text": "买豚皮制品",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你买了张豚皮，Cho说太残忍了。"
+        },
+        {
+          "text": "快速离开",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说不感兴趣，Cho看了你一眼。"
+        }
+      ]
+    },
+    {
+      "id": "brazil_spe_005",
+      "type": "minor",
+      "name": "海上日出",
+      "segments": "brazil",
+      "day_range": "750-850",
+      "probability": "6",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "清晨，太阳从大西洋的海平面上升起，Cho站在岸边，第一次看到海上的日出。",
+      "options": [
+        {
+          "text": "跳进海浪里",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你冲进海浪里，Cho跟在后面。海水是咸的，Cho说这辈子第一次尝到。"
+        },
+        {
+          "text": "拍照",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拍了几张照片，Cho说这张要挂在家里。"
+        },
+        {
+          "text": "继续赶路",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你说别看了，还有路要走。Cho说再给一分钟。"
+        }
+      ]
+    },
+    {
+      "id": "brazil_spe_006",
+      "type": "major",
+      "name": "红树林迷宫",
+      "segments": "brazil",
+      "day_range": "780-850",
+      "probability": "9",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "你们在红树林里迷了路，Cho说每棵树看起来都一样。潮水在上涨，时间不多了。",
+      "options": [
+        {
+          "text": "爬上树观察方向",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你爬上一棵最高的红树，看到了远处的河口。但下来时划伤了手臂。"
+        },
+        {
+          "text": "跟水鸟走",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你发现水鸟都朝着一个方向飞，跟着它们走出了迷宫。"
+        },
+        {
+          "text": "等潮水退去",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你们坐在树枝上等了三个小时，Cho说太无聊了。"
+        }
+      ]
+    },
+    {
+      "id": "brazil_spe_007",
+      "type": "major",
+      "name": "搁浅的巨骨舌鱼",
+      "segments": "brazil",
+      "day_range": "720-820",
+      "probability": "7",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "一条两米长的巨骨舌鱼搁浅在泥滩上，Cho说它的鳞片比指甲还硬。",
+      "options": [
+        {
+          "text": "救鱼回水里",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拼命把鱼推进水里，Cho说这是积德。"
+        },
+        {
+          "text": "杀鱼吃肉",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你用砍刀杀了鱼，鱼肉够吃半个月。Cho说太重了搬不动。"
+        },
+        {
+          "text": "拍照记录",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你拍了几张照片，Cho说回去可以发朋友圈。"
+        }
+      ]
+    },
+    {
+      "id": "brazil_spe_008",
+      "type": "minor",
+      "name": "海滩上的漂流瓶",
+      "segments": "brazil",
+      "day_range": "790-850",
+      "probability": "4",
+      "condition": "",
+      "trigger_type": "时段roll",
+      "desc": "你们在海滩上发现一个瓶子，里面有一张纸条，写着葡萄牙语。Cho看了看：“有人被困在岛上？”",
+      "options": [
+        {
+          "text": "打开瓶子",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你打开瓶子，里面除了纸条还有一枚银币。Cho说可能是海盗。"
+        },
+        {
+          "text": "扔回海里",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你把瓶子扔回海里，Cho说应该交给警察。"
+        },
+        {
+          "text": "带走留作纪念",
+          "effects": {},
+          "gain_items": {},
+          "cost_items": {},
+          "result_text": "你塞进包里，Cho说这是垃圾。"
+        }
+      ]
+    }
+  ]
+}

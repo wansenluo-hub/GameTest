@@ -1,0 +1,82 @@
+[
+  {
+    "id": "行军",
+    "name_zh": "行军",
+    "name_en": "行军",
+    "time_cost": 1,
+    "cost": "体力-12 饱食-8 水分-10 精力-5",
+    "output": "前进5-8km×地形系数",
+    "options_raw": "①正常行军 ②强行军(规则:体力>40才显示;体力-20但距离+50%,健康-3风险)",
+    "condition": "体力≤15时禁用"
+  },
+  {
+    "id": "狩猎",
+    "name_zh": "狩猎",
+    "name_en": "狩猎",
+    "time_cost": 1,
+    "cost": "体力-10 精力-5",
+    "output": "成功→meat×1-2，可能+animal_fur；失败→无",
+    "options_raw": "①徒手陷阱(基础30%) ②规则:有[工具-狩猎:knife]→'用军刀'+20% ③规则:有[工具-狩猎:bullet]→'开枪'+35%,消耗bullet×1",
+    "condition": "陆地站点;雪山/水域不显示"
+  },
+  {
+    "id": "捕鱼",
+    "name_zh": "捕鱼",
+    "name_en": "捕鱼",
+    "time_cost": 1,
+    "cost": "体力-5 精力-3",
+    "output": "成功→fish(夜间→glowing_fish)",
+    "options_raw": "①徒手摸鱼(基础25%) ②规则:有[工具-捕鱼:hook]+[诱饵:bait]→'下钩'70%,消耗bait×1",
+    "condition": "仅河边站点"
+  },
+  {
+    "id": "采集",
+    "name_zh": "采集",
+    "name_en": "采集",
+    "time_cost": 1,
+    "cost": "体力-6",
+    "output": "按地形概率→fruit/mushroom/wood/野生火绒(见样本_4)",
+    "options_raw": "①采集(单选，产出靠loot表) ※mushroom有概率有毒",
+    "condition": "植被地形;雪山产出极低"
+  },
+  {
+    "id": "生火",
+    "name_zh": "生火",
+    "name_en": "生火",
+    "time_cost": 1,
+    "cost": "体力-4，消耗wood×1",
+    "output": "点燃'营火'状态(可烹饪/取暖体温+/夜间安全+)",
+    "options_raw": "①钻木取火(基础40%;规则:有[火绒:*]→+30%) ②规则:每个[点火源:*]物品各生成一个'用X生火'~95%快速选项",
+    "condition": "需wood≥1;雨天成功率×0.4"
+  },
+  {
+    "id": "烹饪",
+    "name_zh": "烹饪",
+    "name_en": "烹饪",
+    "time_cost": 1,
+    "cost": "需active营火+生食材",
+    "output": "生食材→熟食材(熟>生,无health风险)",
+    "options_raw": "规则:每个[食材-生:*]物品生成一个'烹饪X'选项",
+    "condition": "仅当营火active且背包有生食材"
+  },
+  {
+    "id": "rest",
+    "name_zh": "短歇",
+    "name_en": "rest",
+    "time_cost": 1,
+    "cost": "",
+    "output": "体力+15 精力+10",
+    "options_raw": "短歇(1时段,体力+15 精力+10)",
+    "condition": "任意时段"
+  },
+  {
+    "id": "camp",
+    "name_zh": "扎营过夜",
+    "name_en": "camp",
+    "time_cost": 6,
+    "cost": "",
+    "output": "体力+40 精力+30，到次日清晨",
+    "options_raw": "扎营过夜(到次日清晨,大恢复但里程停滞)",
+    "condition": "任意时段;夜间推荐"
+  }
+]
